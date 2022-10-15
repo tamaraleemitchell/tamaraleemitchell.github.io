@@ -1,0 +1,101 @@
+---
+title: "Research"
+---
+
+## Overview
+
+My research sits at the intersection of statistical theory and computer science methodology and is part of the modern ascendancy of mining "big data" to produce fundamentally novel science from complicated datasets. Specifically, I seek to illuminate the role played by the nature and quantity of regularization as a tool for improved scientific understanding.
+
+Through this lens, my research can be divided into four intersecting areas: (1) computational approximation methodology, (2) model selection, (3) high-dimensional and nonparametric theory, and (4) applications related to these. My work explores and exploits the connections between these areas rather than approaching them separately---my contributions have been developed out of the pressing need to justify methodology as implemented in applications rather than in a vacuum devoid of empirical motivation. My research program seeks to generate statistical guarantees for the procedures that applied researchers use while also developing methodology for complicated, high-dimensional problems. Within this context, much of my work involves what is referred to as regularization---the process of mathematically balancing complex but meaningful scientific models with a preference for simple fundamental structures.
+
+
+```{r, warning=FALSE, echo=FALSE, out.width="100%", out.height="2.5in", fig.width=12, fig.height=2.5, message=FALSE}
+#| column: screen-left
+source(here::here("assets", "pub-resources", "djm_flow.R"))
+pal <- c("#01364f", "#01364f", "#247c86", "#84231e", "#84231e")
+djm_flow(pal, nlines = 5000, 
+         tapering = "bellshaped", noise_types = "perlin", 
+         lwd_par = .3, min_length = 20*.01, iterations = 200,
+         top = 20 * 1.5, bottom = 20 * -0.5,
+         color_fun = function(x, y) sample(pal, length(x), TRUE)) +
+  ggplot2::coord_fixed(expand = FALSE)
+```
+
+
+## Recent papers and preprints
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(bib2df)
+library(dplyr)
+df <- bib2df(here::here("assets", "pub-resources", "papers.bib"), separate_names = TRUE)
+
+keep_fields <- toupper(c(
+  "category", "author", "booktitle", "edition",
+  "editor", "howpublished", "institution", 
+  "journal", "pages", "publisher", "number",
+  "title", "volume", "year", "arxiv", "url",
+  "code", "pdf"))
+
+df <- df[, keep_fields] %>% arrange(desc(YEAR))
+source(here::here("assets", "pub-resources", "render-pubs.R"))
+
+df2 <- df %>%
+  transmute(
+    year = clean_str(YEAR),
+    title = fmt_title(TITLE),
+    pub = fmt_jvpy(CATEGORY, JOURNAL, BOOKTITLE, VOLUME, PAGES, year),
+    links = fmt_links(URL, ARXIV, PDF, CODE),
+    skip = is.na(URL) & is.na(ARXIV) & is.na(PDF) & is.na(CODE)
+  )
+df2$authors = sapply(df$AUTHOR, fmt_names)
+df2 <- df2 %>% filter(!skip)
+```
+
+```{r, error=FALSE, warning=FALSE, results="asis", echo=FALSE}
+for (i in 1:5) {
+  ref = df2[i,]
+  if (ref$skip) next
+  cat(ref$title, "\n")
+  cat(ref$authors, "\n")
+  cat(ref$pub, "\n")
+  cat(ref$links, "\n")
+}
+```
+
+<br>
+
+<a href="all-pubs.qmd">
+<button type="button" class="btn btn-outline-warning">
+View all publications
+</button>
+</a>
+
+
+
+## Slides for recent talks
+
+```{r echo=FALSE}
+library(tibble)
+library(stringr)
+talks <- tribble(
+  ~ title, ~ ref,
+  "Markov switching state space models for uncovering musical interpretation", "https://dajmcdon.github.io/chopin-2022-slides/",
+  "Your model is beautiful, but does it predict?", "https://dajmcdon.github.io/dsges/",
+  "COVID-19 Modelling and Forecasting in the US and Canada: A statisticians perspective", "https://dajmcdon.github.io/ubc-stat-covid-talk/",
+  "Trend filtering in exponential families", "docs/talks/ExpFam-research-169.pdf",
+  "Algorithms for Estimating Trends in Global Temperature Volatility", "docs/talks/volatilityAAAIposter.pdf",
+  "Regularization, optimization, and approximation: The benefits of a convex combination", "docs/talks/RegOptApprox.pdf",
+  "Matrix sketching for alternating direction method of multipliers optimization", "docs/talks/ApproxADMM.pdf",
+  "Predicting phenotypes from microarrays using amplified, initially marginal, eigenvector regression", "docs/talks/aimer.pdf"
+)
+```
+
+```{r, error=FALSE, warning=FALSE, results="asis", echo=FALSE}
+for (i in seq_len(nrow(talks))) {
+  title <- talks$title[i]
+  ref <- talks$ref[i]
+  m1 <- str_glue("* <a href='{ref}' target='_blank'>{title}</a> <i class='bi bi-box-arrow-up-right'></i>\n\n")
+  #m2 <- str_glue("<a href={ref}><button type='button' class='btn btn-outline-primary btn-sm'><i class='bi bi-easel2-fill'></i> slides </button></a>")
+  cat(m1, "\n\n")
+}
+```

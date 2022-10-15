@@ -1,0 +1,74 @@
+---
+title: "Links, resources and additional information"
+---
+
+## COVID work
+
+* Delphi Research Group at Carnegie Mellon University
+    - [Website](https://delphi.cmu.edu)
+    - [Covidcast](https://delphi.cmu.edu/covidcast/)
+    - [Github Org](http://github.com/cmu-delphi)
+
+* [BC COVID-19 Modelling Group](https://bccovid-19group.ca)
+
+* [BC COVID Case Tracker](bc-covid-tracker/), somewhat useless now that cases are dramatically underreported, but still running.
+
+
+## R packages for recent papers and publications
+
+(See [github/dajmcdon](http://github.com/dajmcdon) or my
+  [publications page](/publications/) for others)
+  
+* [{fkf}](https://waternumbers.github.io/FKF/index.html): __Fast Kalman Filter.__
+  Very fast Kalman filtering and smoothing. 
+* [{sparsegl}](https://dajmcdon.github.io/sparsegl/) __Sparse Group Lasso.__
+    Efficient implementation of sparse group lasso with optional bound constraints on the coefficients. It supports the use of a sparse design matrix as well as returning coefficient estimates in a sparse matrix. Furthermore, it correctly calculates the degrees of freedom to allow for information criteria rather than cross-validation with very large data. Finally, the interface to compiled code avoids unnecessary copies and allows for the use of long integers.
+* [{dpf}](http://github.com/dajmcdon/dpf): __Discrete particle
+  filtering.__ This package greedily estimates switching Kalman filters
+  *fast*. Also useful for analysis of musical tempos.
+* [{AIMER}](http://github.com/dajmcdon/aimer): __Amplified, Initially Marginal, Eigenvector Regression.__ As described in Ding, L. and McDonald, D.J.,
+"Predicting phenotypes from microarrays using amplified, initially
+marginal, eigenvector regression". A better version of supervised
+principal components analysis.
+* [{cplr}](http://github.com/dajmcdon/cplr): __Compressed penalized linear regression.__ As described in Homrighausen, D. and McDonald, D.J.,
+"Compressed and penalized linear regression." 
+
+
+## Additional resources
+
+* [Advice for getting a job](/assets/code-links/marketadvice.pdf), somewhat out of date
+* [Minimal make files](http://kbroman.org/minimal_make/)
+* [Nice LaTeX tables](https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf)
+
+### Resources for R and basic analysis
+
+(see also my course materials on the [Teaching](/teaching/) page)
+
+* [R for Data Science](http://r4ds.had.co.nz), a nice textbook from Hadley Wickham
+* [Happy Git with R](http://happygitwithr.com), good exposition on setting up and combining R and Git
+* [Basic text mining in R](https://rstudio-pubs-static.s3.amazonaws.com/265713_cbef910aee7642dc8b62996e38d2825d.html)
+* [Fix common Github+R issues](http://ohi-science.org/manual/#rpostback-askpass-error), the dreaded rpostback askpass error
+* [ggplot2](http://ggplot2.tidyverse.org)
+* [The batchtools package](https://mllg.github.io/batchtools/index.html) for easy cluster parallelization
+
+## Artwork and other attributions
+
+The artwork throughout this website is generated using R and additional packages. In principle, it will change randomly whenever the site is updated. Some of these use the [aRtsy](https://koenderks.github.io/aRtsy/index.html) package built by Koen Derks. Others use some custom functions that I occasionally work on in my spare time. These have benefited from reading Danielle Navarro's excellent [blog](https://blog.djnavarro.net/#category=Art) and other material, as well as some posts by [Tyler Hobbs](https://tylerxhobbs.com/essays/2020/flow-fields). 
+
+This website was built with [Quarto](https://quarto.org) along with some custom CSS inspired by the [Hugo Apéro](https://hugo-apero.netlify.app/contributors/) theme. Building the site in Quarto removes some flexibility that I used to have with my old Jekyll site, but it also allows for much easier integration of R code. 
+
+If any of this seems useful, see the underlying [Github repo](https://github.com/dajmcdon/dajmcdon.github.io) for the code. There are script files that control the artwork as well as autogenerating the list of publications (a massive headache in other static site generators).
+
+## Personal
+
+I still play cello occasionally, and I enjoy listening to classical music whenever I get the chance. I've only once successfully connected [research and music](/chopin-2022-slides), but this leaves music to be a nice hobby, a total diversion from academic work.
+
+I should also point to my partner's website: [Tamara Mitchell](https://tamaraleemitchell.github.io). She does great work in Hispanic literature, and we're lucky to be at the same institution. We also have two wonderful cats that we spoil rotten.
+
+::: {layout-ncol=2 .column-screen-inset-left}
+
+![Gigi](assets/img/gigi.JPG)
+
+![Mona](assets/img/mona.jpg)
+:::
+

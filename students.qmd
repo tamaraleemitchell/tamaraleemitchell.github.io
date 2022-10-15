@@ -1,0 +1,111 @@
+---
+title: "Information for Students"
+---
+
+
+## Research group
+
+### Current members
+
+- Rachel Lobay, PhD in Statistics
+
+- Jiaping Liu, PhD in Statistics
+
+- William Laplante, MSc in Statistics (co-supervised with [Paul Gustafson](http://paulgstf.com/))
+
+- Elvis Cai, MSc in Statistics (co-supervised with [Ben Bloem-Reddy](https://www.stat.ubc.ca/~benbr/))
+
+### Alumni
+
+- Ken Mawer, NSERC USRA (UBC 2022); BSc Student at UBC
+
+- Shuyi Tan, MSc in Statistics (UBC 2022); Data Analyst at VGH & UBC Hospital Foundation
+
+- Xiaoxuan Liang, MSc in Statistics (UBC 2022); PhD student in Computer Science at UBC
+
+- Wei Tang, MSc in Statistics (UBC 2022); Data Scientist at Amazon
+
+- Aaron Cohen, PhD Qualifier (IUB 2021); PhD student in Statistics at IUB
+
+- Lei Ding, PhD in Statistics (IUB 2020); Data Scientist at Amazon
+
+- Robert Granger, PhD Qualifier (IUB 2020); PhD student in Statistics at IUB
+
+- Haoran Liu, MSc in Statistics (IUB 2020); PhD student in Statistics at IUB
+
+- Mackenzie Turner, CEW&T Emerging Scholars REU (IUB 2020); BA student in SPEA at IUB 
+
+- Arash Khodadadi, MSc in Statistics (IUB 2018); Data Scientist at Advanced Microgrid Solutions
+
+- Michael McBride, BSc in Statistics (IUB 2018); Software Developer at Epic
+
+- Jia Wang, MSc in Statistics (IUB 2017); PhD student in Biostatistics at SUNY Buffalo
+
+- Lijiang Guo, PhD Qualifier (IUB 2014); PhD student in ISE at IUB
+
+
+```{r, warning=FALSE, echo=FALSE, out.width="100%", out.height="2.5in", fig.width=12, fig.height=2.5}
+#| column: screen-left
+cols <- aRtsy::colorPalette("dark2")
+aRtsy::canvas_circlemap(cols, right = 12, iterations = 5, bottom = .5, top = 1) + ggplot2::coord_fixed(ratio = 2.5 / 12, expand = FALSE)
+```
+
+
+## Applying to UBC Statistics or MDS Programs 
+
+I generally have no special powers when it comes to being admitted to MSc/PhD or MDS programs. At UBC, students are admitted to the department before choosing an advisor later in their program. If you are interested, I encourage you to consult the [department website](https://www.stat.ubc.ca/graduate).
+
+If you want to learn more, your best bet is to email the [Graduate Admissions Officer](mailto:admiss@stat.ubc.ca).
+
+## Requesting letters of recommendation 
+
+I frequently get requests for letters of recommendation, and I'm generally happy to comply. However, if I taught you for one class two years ago, it is unlikely that I can provide useful information to a recruiter or admissions committee member.
+
+In order for me to write, I will need at least **two** weeks notice before the first deadline. I will also ask you to provide some information. I've found that this helps me to write convincing letters.
+
+Finally, I only agree to write a fixed number of letters per year for students who take courses with me. This is to be fair to you. Sending letters for many students to the same programs dilutes the impact of my letter with admissions committees. This is another reason that I encourage you to ask early. If you are currently enrolled in class with me, I will ask that you attend office hours, ask questions, of in another way give me some information about yourself. I do not write letters that say "This student took my course and got a 91." This limit does not apply to PhD students or other students doing research projects under my supervision.
+
+-   A list of all (or as many as you currently know) positions to which you are applying along with deadlines and some idea of how the letter gets there. (Do I email someone or does some system ask me to upload things in an automated fashion?)
+
+-   A recent CV or resume that includes a list of courses taken in your major.
+
+-   A personal statement or cover letter (likely the one you're sending 
+in one of the applications).
+
+-   Answers to as many of the following questions as possible:
+    1.  For what class(es) have I been the instructor and how did you distinguish yourself in my class(es)? Any particular experiences you remember that I should be aware of that make you look good?
+    2.  Please choose four adjectives that you think describe you well and provide a brief self-recommendation (2--3 sentences).
+    3.  What are some of your academic accomplishments?
+    4.  What are some of your nonacademic accomplishments?
+    5.  What makes me particularly qualified to write a letter for you?
+    6.  What makes you particularly qualified for these positions?
+    7.  What are your long-term goals?
+
+## Scheduling research meetings 
+
+I have found the following procedure tends to result in more productive meetings. If you would like to meet to discuss your project:
+
+1.  Please, consult the calendar below.
+
+2.  Send me a written document and a time to meet via [Slack](https://ubc-stat.slack.com/).
+
+#### Best practices
+
+-   Your proposed time should
+    1.  be available in the calendar.
+    2.  begin between 09:00 and 16:00 Monday through Friday
+    3.  be at least 24 hours in the future.
+
+-   Your document should
+    1.  contain a section summarizing takeaway points of our previous meeting including next steps.
+    2.  describe what you have done to address those points or give concrete reasons for why they could not be addressed.
+    3.  if you were asked to read a paper, summarize the paper *and* relate it to your project.
+    4.  discuss what you might do next and why.
+    5.  list questions you would like to discuss.
+
+## Public calendar {#public-calendar}
+
+<div style="display: flex; align-items: center; justify-content: center;">
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23efefef&amp;ctz=America%2FVancouver&amp;src=ZGFqbWNkb25AZ21haWwuY29t&amp;color=%233F51B5&amp;mode=WEEK&amp;showTitle=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0" style="border-width:0" width="600" height="500" frameborder="0" scrolling="no">
+</iframe>
+</div>

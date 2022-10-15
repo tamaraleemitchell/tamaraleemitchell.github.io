@@ -1,0 +1,46 @@
+project:
+  type: website
+
+website:
+  title: "DJM"
+  search: false
+  favicon: assets/img/djm.ico
+  image: assets/img/djm.png
+  navbar:
+    #logo: img/djm.png
+    background: light
+    collapse: false
+    right:
+      - href: biography.qmd
+        text: BIOGRAPHY
+      - href: research/index.qmd
+        text: RESEARCH
+      - href: teaching/index.qmd
+        text: TEACHING
+      - href: students.qmd
+        text: STUDENTS
+      - href: other.qmd
+        text: OTHER
+  page-footer:
+    border: false
+    right: "© 2022, Daniel J. McDonald"
+    center: |
+      <a href="https://github.com/dajmcdon"><i class="bi bi-github"></i></a>
+      <a href="https://scholar.google.com/citations?user=qRmkt6wAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://twitter.com/dajmcdon"><i class="bi bi-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/dajmcdon/"><i class="bi bi-linkedin"></i></a>
+      <a href="https://orcid.org/0000-0002-0443-4282"><i class="ai ai-orcid"></i></a>
+      <a href="mailto:daniel@stat.ubc.ca"><i class="bi bi-envelope"></i></a>
+      <a href="research/docs/DanielMcDonaldCV.pdf"><i class="ai ai-cv"></i></a>
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/djmquarto.scss
+    css: assets/styles.css
+    toc: true
+    include-in-header: assets/header.html
+
+editor: source
+

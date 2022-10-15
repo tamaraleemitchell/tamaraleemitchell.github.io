@@ -1,0 +1,104 @@
+---
+title: "INET 2015"
+---
+
+![](/assets/img/inetlogo2015.png)
+
+
+
+## Instructor
+
+Daniel McDonald  
+Department of Statistics  
+Indiana University, Bloomington  
+
+
+
+## Course description
+
+
+Largely unnoticed by economists, over the last three decades
+statisticians and computer scientists have developed sophisticated
+prediction procedures and methods of model selection and forecast
+evaluation under the rubric of statistical learning theory. These
+methods have revolutionized pattern recognition and artificial
+intelligence, and the modern industry of data mining (without the
+pejorative connotation) would not exist without it.
+
+In this short course, we will investigate the connections between
+modern statistical methodology and standard techniques which are more
+common in economics and social science. The goal is to develop an
+understanding for the circumstances under which different statistical
+methods are appropriate, how methods behave when the model for the
+data generating process is incorrect, and why some methods can adapt
+while others cannot. We will focus especially on selecting models with
+good predictive performance and on the relationships between model
+complexity, statistical estimation, and the amount of data used to
+estimate the model.
+
+The starting point for statistical learning is the notion of
+predictive risk and the tradeoff between bias and variance. With this
+tradeoff in mind, we will investigate the importance of assessing
+models using training and test data, the benefits of regularization,
+and the necessity of selecting tuning parameters carefully. We will
+illustrate each of these issues with some standard econometric
+procedures applied to financial and economic datasets while at the
+same time, introducing some potentially new procedures which may be
+useful in your own research.
+
+
+## Schedule of topics
+
+
+1. The predictive viewpoint
+2. The bias-variance tradeoff
+3. Evaluating predictions and estimators
+4. The benefits of regularization
+4. Model selection
+5. Choosing tuning parameters
+6. Application: BVARs and DSGEs
+7. Tools for classification
+9. Application: Predicting recessions
+9. Collaborative filtering and the Netflix prize
+1. Dimension reduction
+
+
+## Suggested preparation
+
+In order to be best prepared for this course, we suggest that you
+brush up on your econometrics, especially the content about
+probability. Most useful will be to remind your self about expected
+values and variance, convergence in probability and consistency,
+maximum likelihood, ordinary least squares and some time series topics
+like autoregressive models. Also, remind yourself what a dynamic
+stochastic general equilibrium model is (you probably know more about
+this than we do, but perhaps not). Less useful are GMM techniques and
+cointegration.
+
+Before coming to class, we suggest that you take a look at the first
+three (3) chapters of Cosma Shalizi's preprint 
+[Advanced Data Analysis from an Elementary Point of View](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/).
+These chapters will serve as a nice introduction to the materials we intend to
+cover. The rest of the book is great too if you are feeling more
+ambitious/motivated.
+
+
+## Preliminary exercises
+
+We will make a handful of exercises available to try before you come
+to class. These are mainly for review and little else. They will
+certainly not be graded, but spending a few hours trying them may help
+you come to class more prepared. The exercises are [here](/assets/teaching/inet2013/prelimQuestions.pdf).
+
+## Data analysis
+
+All of the data analysis examples we use in class will be done in the
+open source programming language R. R is extremely
+powerful and easily extensible. We will try to make all of our code
+available on the website so that you may experiment with it. The
+software is available for free on [CRAN](http://cran.r-project.org/). An
+official introduction is available there, and many other introductions
+are available on the web. See for example [here](/code-links.html). Feel free to download and play around with
+R, but experience and/or mastery of computer programming is not
+necessary.
+
