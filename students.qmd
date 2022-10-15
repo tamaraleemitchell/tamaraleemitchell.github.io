@@ -11,9 +11,9 @@ title: "Information for Students"
 
 - Jiaping Liu, PhD in Statistics
 
-- William Laplante, MSc in Statistics (co-supervised with [Paul Gustafson](http://paulgstf.com/))
+- Elvis Cai, MSc in Statistics (co-supervised with [Paul Gustafson](http://paulgstf.com/))
 
-- Elvis Cai, MSc in Statistics (co-supervised with [Ben Bloem-Reddy](https://www.stat.ubc.ca/~benbr/))
+- William Laplante, MSc in Statistics (co-supervised with [Ben Bloem-Reddy](https://www.stat.ubc.ca/~benbr/))
 
 ### Alumni
 
