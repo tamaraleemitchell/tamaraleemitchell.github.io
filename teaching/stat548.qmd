@@ -110,9 +110,9 @@ Some resources on technical/mathematical writing:
     ~~*Themes:* Deep learning, risk estimation, computation.~~  
     ~~*Project:* Describe and implement SURE for ridge regression using the Auto Differentiation idea discussed in this paper.~~
 
-2.  Koyama, Castellanos Pérez-Bolde, Shalizi, and Kass. [Approximate Methods for State-Space Models](https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.tm08326)  
-    *Themes:* Time series, deconvolution, computation.  
-    *Project:* Implement the methodology in reasonable, generalizable software. Use it to estimate the latent states from a simulated non-linear state-space model.
+2.  ~~Koyama, Castellanos Pérez-Bolde, Shalizi, and Kass. [Approximate Methods for State-Space Models](https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.tm08326)~~  
+    ~~*Themes:* Time series, deconvolution, computation.~~  
+    ~~*Project:* Implement the methodology in reasonable, generalizable software. Use it to estimate the latent states from a simulated non-linear state-space model.~~
 
 3.  Green, Balakrishnan, and Tibshirani. [Minimax Optimal Regression over Sobolev Spaces via Laplacian Eigenmaps on Neighborhood Graphs](https://arxiv.org/abs/2111.07394)  
     *Themes:* Nonparametric regression, manifolds, sufficient dimension reduction.  
