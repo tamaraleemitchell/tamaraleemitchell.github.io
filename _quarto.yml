@@ -19,7 +19,7 @@ website:
         text: TEACHING
       - href: students.qmd
         text: STUDENTS
-      - href: other.qmd
+      - href: other/index.qmd
         text: OTHER
   page-footer:
     border: false
