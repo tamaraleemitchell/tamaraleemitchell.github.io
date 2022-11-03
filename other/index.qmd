@@ -36,7 +36,7 @@ principal components analysis.
 
 ## Additional resources
 
-* [Advice for getting a job](/assets/code-links/marketadvice.pdf), somewhat out of date
+* [Advice for getting a job](/other/market-advice.html), somewhat out of date
 * [Minimal make files](http://kbroman.org/minimal_make/)
 * [Nice LaTeX tables](https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf)
 
