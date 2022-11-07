@@ -17,7 +17,7 @@ title: "Links, resources and additional information"
 ## R packages for recent papers and publications
 
 (See [github/dajmcdon](http://github.com/dajmcdon) or my
-  [publications page](/publications/) for others)
+  [publications page](/research/all-pubs.html) for others)
   
 * [{fkf}](https://waternumbers.github.io/FKF/index.html): __Fast Kalman Filter.__
   Very fast Kalman filtering and smoothing. 
@@ -67,8 +67,8 @@ I should also point to my partner's website: [Tamara Mitchell](https://tamaralee
 
 ::: {layout-ncol=2 .column-screen-inset-left}
 
-![Gigi](assets/img/gigi.JPG)
+![Gigi](/assets/img/gigi.JPG)
 
-![Mona](assets/img/mona.jpg)
+![Mona](/assets/img/mona.jpg)
 :::
 
