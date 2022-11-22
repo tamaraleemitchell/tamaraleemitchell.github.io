@@ -59,49 +59,22 @@ If you want to learn more, your best bet is to email the [Graduate Admissions Of
 
 ## Requesting letters of recommendation 
 
-I frequently get requests for letters of recommendation, and I'm generally happy to comply. However, if I taught you for one class two years ago, it is unlikely that I can provide useful information to a recruiter or admissions committee member.
+I frequently get requests for letters of recommendation, and I'm generally happy to comply. However, unless we regularly interacted, it is unlikely that I can provide useful information to a recruiter or admissions committee member. In these cases, I can provide a "took a class with me letter", but I **highly** recommend asking someone else who can provide more detailed descriptions of your unique strengths. If you are currently enrolled in class with me, I will ask that you attend office hours, ask questions, of in another way give me some information about yourself.
 
-In order for me to write, I will need at least **two** weeks notice before the first deadline. I will also ask you to provide some information. I've found that this helps me to write convincing letters.
+In order for me to write, I will need at least **two** weeks notice before the first deadline. 
 
-Finally, I only agree to write a fixed number of letters per year for students who take courses with me. This is to be fair to you. Sending letters for many students to the same programs dilutes the impact of my letter with admissions committees. This is another reason that I encourage you to ask early. If you are currently enrolled in class with me, I will ask that you attend office hours, ask questions, of in another way give me some information about yourself. I do not write letters that say "This student took my course and got a 91." This limit does not apply to PhD students or other students doing research projects under my supervision.
+-   A list of all positions to which you are applying along with deadlines for each.
 
--   A list of all (or as many as you currently know) positions to which you are applying along with deadlines and some idea of how the letter gets there. (Do I email someone or does some system ask me to upload things in an automated fashion?)
+-   A recent CV or resume that includes a list of courses taken in your major and a unofficial transcript.
 
--   A recent CV or resume that includes a list of courses taken in your major.
+-   A personal statement (likely the one you're sending in one of the applications).
 
--   A personal statement or cover letter (likely the one you're sending 
-in one of the applications).
+-   Answers to the following questions as possible:
+    1.  For what class(es) have I been the instructor and how did you distinguish yourself in my class(es)? Did we have any notable interactions I should highlight.
+    2.  What makes me particularly qualified to write a letter for you?
+    3.  What are your long-term goals?
+    4. A list of 3 adjectives that describe you with a sentence saying why. Be creative.
 
--   Answers to as many of the following questions as possible:
-    1.  For what class(es) have I been the instructor and how did you distinguish yourself in my class(es)? Any particular experiences you remember that I should be aware of that make you look good?
-    2.  Please choose four adjectives that you think describe you well and provide a brief self-recommendation (2--3 sentences).
-    3.  What are some of your academic accomplishments?
-    4.  What are some of your nonacademic accomplishments?
-    5.  What makes me particularly qualified to write a letter for you?
-    6.  What makes you particularly qualified for these positions?
-    7.  What are your long-term goals?
-
-## Scheduling research meetings 
-
-I have found the following procedure tends to result in more productive meetings. If you would like to meet to discuss your project:
-
-1.  Please, consult the calendar below.
-
-2.  Send me a written document and a time to meet via [Slack](https://ubc-stat.slack.com/).
-
-#### Best practices
-
--   Your proposed time should
-    1.  be available in the calendar.
-    2.  begin between 09:00 and 16:00 Monday through Friday
-    3.  be at least 24 hours in the future.
-
--   Your document should
-    1.  contain a section summarizing takeaway points of our previous meeting including next steps.
-    2.  describe what you have done to address those points or give concrete reasons for why they could not be addressed.
-    3.  if you were asked to read a paper, summarize the paper *and* relate it to your project.
-    4.  discuss what you might do next and why.
-    5.  list questions you would like to discuss.
 
 ## Public calendar {#public-calendar}
 

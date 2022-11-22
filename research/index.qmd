@@ -79,6 +79,7 @@ library(tibble)
 library(stringr)
 talks <- tribble(
   ~ title, ~ ref,
+  "Advice on applying to graduate school", "https://dajmcdon.github.io/grad-school-pointers/",
   "Markov switching state space models for uncovering musical interpretation", "https://dajmcdon.github.io/chopin-2022-slides/",
   "Your model is beautiful, but does it predict?", "https://dajmcdon.github.io/dsges/",
   "COVID-19 Modelling and Forecasting in the US and Canada: A statisticians perspective", "https://dajmcdon.github.io/ubc-stat-covid-talk/",
