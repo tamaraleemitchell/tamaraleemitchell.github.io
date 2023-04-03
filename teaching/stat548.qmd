@@ -114,6 +114,6 @@ Some resources on technical/mathematical writing:
     ~~*Themes:* Time series, deconvolution, computation.~~  
     ~~*Project:* Implement the methodology in reasonable, generalizable software. Use it to estimate the latent states from a simulated non-linear state-space model.~~
 
-3.  Green, Balakrishnan, and Tibshirani. [Minimax Optimal Regression over Sobolev Spaces via Laplacian Eigenmaps on Neighborhood Graphs](https://arxiv.org/abs/2111.07394)  
-    *Themes:* Nonparametric regression, manifolds, sufficient dimension reduction.  
-    *Project:* Discuss how the ideas in this paper relate to recent work on "Sufficient Dimension Reduction" as in, e.g., [this paper](https://arxiv.org/abs/2010.15009) and references therein.
+3.  ~~Green, Balakrishnan, and Tibshirani. [Minimax Optimal Regression over Sobolev Spaces via Laplacian Eigenmaps on Neighborhood Graphs](https://arxiv.org/abs/2111.07394)~~  
+    ~~*Themes:* Nonparametric regression, manifolds, sufficient dimension reduction.~~  
+    ~~*Project:* Discuss how the ideas in this paper relate to recent work on "Sufficient Dimension Reduction" as in, e.g., [this paper](https://arxiv.org/abs/2010.15009) and references therein.~~
