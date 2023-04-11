@@ -7,40 +7,26 @@ title: "Information for Students"
 
 ### Current members
 
-- Rachel Lobay, PhD in Statistics
-
 - Jiaping Liu, PhD in Statistics
-
+- Rachel Lobay, PhD in Statistics
+- Tigana Runte, MSc in Statistics
 - Elvis Cai, MSc in Statistics (co-supervised with [Paul Gustafson](http://paulgstf.com/))
-
 - William Laplante, MSc in Statistics (co-supervised with [Ben Bloem-Reddy](https://www.stat.ubc.ca/~benbr/))
 
 ### Alumni
 
 - Ken Mawer, NSERC USRA (UBC 2022); BSc Student at UBC
-
 - Shuyi Tan, MSc in Statistics (UBC 2022); Data Analyst at VGH & UBC Hospital Foundation
-
 - Xiaoxuan Liang, MSc in Statistics (UBC 2022); PhD student in Computer Science at UBC
-
 - Wei Tang, MSc in Statistics (UBC 2022); Data Scientist at Amazon
-
 - Aaron Cohen, PhD Qualifier (IUB 2021); PhD student in Statistics at IUB
-
 - Lei Ding, PhD in Statistics (IUB 2020); Data Scientist at Amazon
-
 - Robert Granger, PhD Qualifier (IUB 2020); PhD student in Statistics at IUB
-
 - Haoran Liu, MSc in Statistics (IUB 2020); PhD student in Statistics at IUB
-
 - Mackenzie Turner, CEW&T Emerging Scholars REU (IUB 2020); BA student in SPEA at IUB 
-
 - Arash Khodadadi, MSc in Statistics (IUB 2018); Data Scientist at Advanced Microgrid Solutions
-
 - Michael McBride, BSc in Statistics (IUB 2018); Software Developer at Epic
-
 - Jia Wang, MSc in Statistics (IUB 2017); PhD student in Biostatistics at SUNY Buffalo
-
 - Lijiang Guo, PhD Qualifier (IUB 2014); PhD student in ISE at IUB
 
 
