@@ -1,34 +1,37 @@
 ---
-title: "Daniel J. McDonald"
+title: "Tamara L. Mitchell"
 format: 
   html: 
     page-layout: full
 about:
   template: solana
-  image: assets/img/big-bio-photo.jpeg
-  image-width: 30em
+  image: assets/img/TamaraMitchell.jpg
+  image-width: 20em
   image-shape: rectangle
 ---
 
 <div style="color: #39507d; font-size: 1.25em">
-<a href="https://github.com/dajmcdon">
+<a href="https://github.com/tamaraleemitchell">
 <i class="bi bi-github"></i></a> 
-<a href="https://scholar.google.com/citations?user=qRmkt6wAAAAJ&hl=en">
+<a href="https://scholar.google.com/citations?user=W1JfaXUAAAAJ&hl=en&oi=sra">
 <i class="ai ai-google-scholar"></i></a> 
-<a href="https://twitter.com/dajmcdon"> 
+<a href="https://twitter.com/spanglishtammy"> 
 <i class="bi bi-twitter"></i></a> 
-<a href="https://www.linkedin.com/in/dajmcdon/"> 
-<i class="bi bi-linkedin"></i></a> 
-<a href="https://orcid.org/0000-0002-0443-4282"> 
+<a href="https://orcid.org/0000-0001-9163-2393"> 
 <i class="ai ai-orcid"></i></a> 
-<a href="mailto:daniel@stat.ubc.ca"> 
+<a href="mailto:tamara.mitchell@ubc.ca"> 
 <i class="bi bi-envelope"></i></a> 
 <a href="research/docs/DanielMcDonaldCV.pdf">
 <i class="ai ai-cv"></i></a> 
 </div>
 
-Daniel is Associate Professor of Statistics at the University of British Columbia in Vancouver. His research interests involve the estimation and quantification of prediction risk, especially for structured or dependent data. This includes the application of statistical learning techniques to time series prediction problems for neuroscience, genetics, economics, and epidemiology.
+Tamara L. Mitchell is Assistant Professor of Spanish at the University of British Columbia, Vancouver, where she teaches 20th- and 21st-century Latin American literatures and cultures. Her research examines the relationship among aesthetics, politics, and the literary tradition in the current epoch of neoliberal globalization, with a focus on Mexican and Central American narrative fiction. 
 
-Associate Professor<br> [Department of Statistics](http://www.stat.ubc.ca)<br> [University of British Columbia](http://www.ubc.ca/)<br>
+Assistant Professor  
+PI, Sound & Humanities Research Cluster, 2022-24  
+[Department of French, Hispanic and Italian Studies](https://fhis.ubc.ca/)  
+[University of British Columbia](https://ubc.ca/)<br>
 
-3106 Earth Sciences Building<br> 2207 Main Mall<br> Vancouver, BC V6T 1Z4 Canada
+Buchanan Tower 824  
+1873 E Mall  
+Vancouver, BC V6T 1Z1 Canada

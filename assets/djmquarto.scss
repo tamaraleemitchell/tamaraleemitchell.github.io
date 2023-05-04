@@ -1,9 +1,9 @@
 /*-- scss:defaults --*/
 
-$primary: #39507d;
-$warning: #ff9200;
-$navbar-bg: rgb(255,255,255,.9);
-$navbar-fg: $primary;
+$primary: #fede00;
+$warning: #412973;
+$navbar-fg: $warning;
+$navbar-bg: $primary;
 $nabbar-dark-hover-color: $primary;
 $navbar-light-hover-color: $primary;
 $body-color: #495057 !default;
@@ -23,10 +23,10 @@ $font-family-serif: "EB Garamond",  Georgia, Cambria, "Times New Roman", Times, 
 p {
   font-family: $font-family-sans-serif;
   a {
-    color: $primary;
+    color: $warning;
   }
   a:hover {
-    color: lighten($primary, 30%);
+    color: lighten($warning, 30%);
   }
 }
 
@@ -37,10 +37,10 @@ a {
 
 li {
   a {
-    color: $primary;
+    color: $warning;
   }
   a:hover {
-    color: lighten($primary, 30%);
+    color: lighten($warning, 30%);
   }
 }
 
@@ -51,7 +51,7 @@ h4,
 h5,
 h6 {
   font-family: $font-family-serif;
-  color: $primary;
+  color: $warning;
 }
 
 
@@ -78,15 +78,15 @@ div.quarto-about-solana {
   justify-content: center;
 
   .nav-link {
-    color: $primary;
+    color: $navbar-fg;
   }
   .nav-item {
-    color: $primary;
+    color: $navbar-fg;
   }
   .nav-item a,
   .nav-item a:after,
   .nav-item a:before {
-    color: $primary;
+    color: $navbar-fg;
     transition: all .5s;
   }
   .nav-item a {
@@ -103,7 +103,7 @@ div.quarto-about-solana {
     color: transparent;
     height: .08em;
     pointer-events: none;
-    background-color: $primary;
+    background-color: $navbar-fg;
   }
 
   .nav-item a:hover:after {
@@ -116,16 +116,23 @@ div.quarto-about-solana {
     color: transparent;
     height: .08em;
     font-weight: normal;
-    background-color: $primary;
+    background-color: $navbar-fg;
   }
 }
 
 
 .nav-footer-center {
   a {
-    color: $primary;
+    color: $warning;
   }
   a:hover {
-    color: lighten($primary, 30%);
+    color: lighten($warning, 30%);
   }
+}
+
+img.art-brick{
+    max-width: 140;
+    height: 210;
+    border: 0;
+    padding: 0;
 }

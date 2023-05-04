@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "DJM"
+  title: "TLM"
   search: false
   favicon: assets/img/djm.ico
   image: assets/img/djm.png
@@ -13,25 +13,32 @@ website:
     right:
       - href: biography.qmd
         text: BIOGRAPHY
-      - href: research/index.qmd
+      - href: research.qmd
         text: RESEARCH
-      - href: teaching/index.qmd
+      - href: teaching.qmd
         text: TEACHING
-      - href: students.qmd
-        text: STUDENTS
-      - href: other/index.qmd
-        text: OTHER
+      - href: talks.qmd
+        text: TALKS
+      - href: mas.qmd
+        text: MÁS
+      - href: blog.qmd
+        text: BLOG
   page-footer:
     border: false
-    right: "© 2022, Daniel J. McDonald"
+    right: "© 2023, Tamara L. Mitchell"
     center: |
-      <a href="https://github.com/dajmcdon"><i class="bi bi-github"></i></a>
-      <a href="https://scholar.google.com/citations?user=qRmkt6wAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://twitter.com/dajmcdon"><i class="bi bi-twitter"></i></a>
-      <a href="https://www.linkedin.com/in/dajmcdon/"><i class="bi bi-linkedin"></i></a>
-      <a href="https://orcid.org/0000-0002-0443-4282"><i class="ai ai-orcid"></i></a>
-      <a href="mailto:daniel@stat.ubc.ca"><i class="bi bi-envelope"></i></a>
-      <a href="research/docs/DanielMcDonaldCV.pdf"><i class="ai ai-cv"></i></a>
+      <a href="https://github.com/tamaraleemitchell">
+      <i class="bi bi-github"></i></a>
+      <a href="https://scholar.google.com/citations?user=W1JfaXUAAAAJ&hl=en&oi=sra">
+      <i class="ai ai-google-scholar"></i></a>
+      <a href="https://twitter.com/spanglishtammy">
+      <i class="bi bi-twitter"></i></a>
+      <a href="https://orcid.org/0000-0001-9163-2393">
+      <i class="ai ai-orcid"></i></a>
+      <a href="mailto:tamaraleemitchell@ubc.ca">
+      <i class="bi bi-envelope"></i></a>
+      <a href="research/docs/CV.pdf">
+      <i class="ai ai-cv"></i></a>
 
 format:
   html:
@@ -41,6 +48,9 @@ format:
     css: assets/styles.css
     toc: true
     include-in-header: assets/header.html
+crossref:
+  fig-title: ""
+  fig-labels: none
 
 editor: source
 
