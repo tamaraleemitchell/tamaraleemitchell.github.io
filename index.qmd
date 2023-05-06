@@ -5,7 +5,7 @@ format:
     page-layout: full
 about:
   template: solana
-  image: assets/img/TamaraMitchell.jpg
+  image: assets/images/TamaraMitchell.jpg
   image-width: 20em
   image-shape: rectangle
 ---
@@ -21,7 +21,7 @@ about:
 <i class="ai ai-orcid"></i></a> 
 <a href="mailto:tamara.mitchell@ubc.ca"> 
 <i class="bi bi-envelope"></i></a> 
-<a href="research/docs/DanielMcDonaldCV.pdf">
+<a href="assets/research/CV_TamaraMitchell.pdf">
 <i class="ai ai-cv"></i></a> 
 </div>
 

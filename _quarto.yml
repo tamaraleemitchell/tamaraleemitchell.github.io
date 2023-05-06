@@ -4,8 +4,8 @@ project:
 website:
   title: "TLM"
   search: false
-  favicon: assets/img/djm.ico
-  image: assets/img/djm.png
+  favicon: assets/images/icons/favicon.ico
+  image: assets/images/icons/radish_icon.png
   navbar:
     #logo: img/djm.png
     background: light
@@ -37,7 +37,7 @@ website:
       <i class="ai ai-orcid"></i></a>
       <a href="mailto:tamaraleemitchell@ubc.ca">
       <i class="bi bi-envelope"></i></a>
-      <a href="research/docs/CV.pdf">
+      <a href="assets/research/CV_TamaraMitchell.pdf">
       <i class="ai ai-cv"></i></a>
 
 format:
