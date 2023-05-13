@@ -54,3 +54,5 @@ crossref:
 
 editor: source
 
+execute:
+  freeze: true
