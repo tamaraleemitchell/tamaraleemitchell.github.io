@@ -4,6 +4,7 @@ project:
 website:
   title: "TLM"
   search: false
+  google-analytics: "G-2Y033C89EM"
   favicon: assets/images/icons/favicon.ico
   image: assets/images/icons/radish_icon.png
   navbar:
