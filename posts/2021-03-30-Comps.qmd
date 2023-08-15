@@ -29,7 +29,8 @@ Composing the lists requires students to understand their research interests and
 * I encourage my students to think about potential dissertation chapters as early as possible and, to the best of their ability, to write tentative chapter abstracts as soon as topics and research questions emerge. These chapter abstracts may be very schematic and will likely change through the proposal phase and dissertation writing. However, having a tentative idea of what your chapters will look like will help you see through-lines emerge in your research interests and may point you in the direction of what type of theoretical texts and literary criticism will be useful for your project. You may have a clear idea about one chapter, a vague notion of two other chapters, and no idea what will go in the final 1-2 chapters, but keeping what you _do know_ in mind at this early stage will help you begin putting together your lists and defining your framework.
 
 #### Compiling Your Lists
-* See the entry, "[Compiling](https://tamaraleemitchell.github.io/2020/08/02/compiling-bib.html) a High-Quality Bibliography" for my tips on how I locate and select secondary / critical texts.
+
+* See the entry, "[Compiling](/posts/2021-03-30-compiling-bib.qmd) a High-Quality Bibliography" for my tips on how I locate and select secondary / critical texts.
 * Although reading list composition is primarily your task as the student, seek input from your committee chair regularly. 
 * Chat with other graduate students, particularly those who worked with your committee members, to hear about their experience and solicit advice.
 * For primary texts, I encourage students to include both canonical and lesser known works. This will ensure that you are participating in important scholarly conversations, but also bringing something new to the table. 
@@ -41,6 +42,7 @@ Composing the lists requires students to understand their research interests and
 
 #### How to Study and Prepare for the Exam
 Studying and preparing for your comps is necessarily an individual process. However, here are some tried and true practices that may help you prepare.
+
 * Be organized and have a system. Start a Google Doc or keep a notebook. Take notes as you read. Make succinct summaries of works. Include keywords. Have a highlighting system.
 * I kept notecards with important details, major themes and formal devices, keywords, and relevant dates. I'd flip through these notecards on commutes or when killing time before meetings.
 * Save entries in MLA style (or whatever formatting style you agree on with your supervisor). Having a well formatted bibliography is key to presenting your work as polished and professional. These should be fully formatted each time you submit your lists to your supervisor or committee (messy lists are less likely to be approved).
@@ -52,6 +54,7 @@ Studying and preparing for your comps is necessarily an individual process. Howe
 
 #### FHIS-specific Advice
 After chatting with colleagues at UBC, here is advice meant specifically for students in FHIS
+
 * Regarding the number of texts on each list, this is a common format: 1) General Field: 40 works; Minor Field: 20-25 works; Theory: 15-20 works. But the distribution is flexible.
 * The major field identifies the principal field of interest in terms of geography (national and/or global terms), time frame, and maybe further criteria such as genre, approach, movement, specific theoretical framework, etc.
 * The minor field identifies the specifics of the dissertation sub field, homing in on particularities within the major field. The minor field could be creative.
@@ -63,6 +66,7 @@ After chatting with colleagues at UBC, here is advice meant specifically for stu
 
 #### The Day of the Exam
 My PhD program (Indiana) had a one-day exam in which students wrote two essays (selected from 4 options) in two 4-hour blocks. If that is the format of your exam, here are some tips for how to best prepare yourself for writing your one-day comps.
+
 * Although reviewing material may be useful (and might help calm your nerves), try not to read anything new the day before and the day of your comps. Relax, eat well, get some rest.
 * On the day of the exam, eat a good breakfast, stay hydrated, and bring snacks to the exam. I had a whole kit with Advil, water, snacks, earplugs, gum, tissues, rubberbands to pull my hair back... basically anything that I thought I might want. This kept me calm and kept my energy up.
 * If your exam occurs during the academic year and you are working as a TA or an RA, let your supervising professor know about the exam and request the day before, of, and after the exam off. Ideally, this will not an issue, as your Department should be invested in your success and well-being. (If you are a TA, it would be wise to make sure that your exam does not fall on a week when your supervising prof _does_ need you)
