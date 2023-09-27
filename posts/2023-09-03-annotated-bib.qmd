@@ -1,6 +1,6 @@
 ---
 title: The What and Why of the Annotated Bib
-date: 2022-08-01
+date: 2023-09-03
 categories: methodologies
 ---
 
