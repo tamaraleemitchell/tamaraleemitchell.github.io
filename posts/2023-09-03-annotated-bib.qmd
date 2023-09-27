@@ -1,0 +1,58 @@
+---
+title: The What and Why of the Annotated Bib
+date: 2022-08-01
+categories: methodologies
+---
+
+
+I was invited to teach my department's proseminar (Graduate Professional Development Seminar) this year, and one of the training tasks we undertake involves 'mapping the field,' a core element of which is a substantive annotated bibliography in a particular research area. When my students and I began discussing the assignment, it quickly became clear that there were a range of experiences with the annotated bib, from students who use them regularly for their own research projects to those who have completed one for an undergrad course without fully understanding why to students who have never encountered one before. I created the below guide particularly for that last group, as well as to outline the benefits of mastering the annotated bib.
+
+This post benefitted from templates and how-to web pages, particularly SFU's ["How to Write an Annotated Bibliography"](https://www.lib.sfu.ca/help/cite-write/citation-style-guides/annotated-bibliography) and Columbia U's ["The Annotated Bibliography"](https://guides.library.cornell.edu/annotatedbibliography).
+
+### The Annotated Bibliography
+#### What is it?
+An annotated bibliography (or annotated bib) is essentially a list of references (similar to a works cited document), and each entry is accompanied by prose that consists of comments describing and assessing the text. An annotated bibliography is typically alphabetical—although other orders exist, such as most recent to oldest sources—, and has two key elements:
+
+1. a list of books or other works in a particular citation style (in literary studies, this is most often MLA style).
+2. descriptive and evaluative comments about each bibliographic reference. These comments are also known as annotations.
+
+Depending on your needs, each entry of the annotated bib might also have keywords, it may comment on the applicability of the source to the project, etc. When I was studying for comps, my annotated bibs included reference to primary sources that I thought would pair well with the text.
+
+Many useful guides exist online describing the purpose and logistics of the annotated bibliography. Some good ones: [SFU](https://www.lib.sfu.ca/help/cite-write/citation-style-guides/annotated-bibliography), [Owl Purdue](https://owl.purdue.edu/owl/general_writing/common_writing_assignments/annotated_bibliographies/annotated_bibliography_samples.html), [Cornell](https://guides.library.cornell.edu/annotatedbibliography), [Toronto](https://advice.writing.utoronto.ca/types-of-writing/annotated-bibliography/). Another good strategy is to read examples of other scholars’ annotated bibs.
+
+#### How do I select works to annotate?
+The exact makeup of your annotated bibliography depends on the scope of your research project or class assignment. In my experience, annotated bibs focus on theory, criticism, and secondary sources (rather than primary sources). This is because the ‘evaluative’ component often doesn’t apply to the primary source (we’re not ‘evaluating’ it per se, but rather analyzing it in context). Thus, annotated bibs are typically comprised of secondary criticism and theoretical sources.
+
+One certainty is that it will take some initial digging and pre-writeup evaluation to decide which sources you will annotate. In other words, if you have an assignment to annotate 5 sources, you will likely skim and do a quick evaluation of 20-50 sources (or even more!) before settling on the 5 ideal sources to annotate. Some tips and questions that you should have in mind as you select sources:
+
+* Most often, the works you select (especially for a class assignment) will be peer-reviewed sources that are published in reputable venues. Books with academic / university presses, journal articles in recognized venues, etc. 
+    * NB: For the assignment in my proseminar, one key learning outcome is that students become familiar with what constitutes a ‘reputable’ source and which journals and presses are go-to venues in a particular field. Students tend to learn a lot as the assignment progresses!
+* Sources with many citations or that have gone through various editions are often important in the field.
+* Consider things like audience and approach. For instance, a textbook assigned in college classes might contain useful information, but it’s not the best use of space in an annotated bibliography. This is because that type of source is often presenting information rather than critiquing or analyzing. Other works that typically do NOT appear in annotated bibs are opinion pieces, very old scholarship that has been debunked, propaganda or persuasive writing, interviews with the authors, etc. Those sources may have a place in your research project, but often will not appear in the annotated bib (with the typical caveat that this depends on the objectives of the bib or your assignment criteria!).
+* How robust is the bibliography? Is the author(s) citing relevant criticism? 
+
+There are useful guides online for evaluating sources. Two good ones to guide your selection are Berkeley’s ‘[Evaluating Sources](https://guides.lib.berkeley.edu/evaluating-resources)’ and Cornell’s ‘[Critical Analysis of Content](https://guides.library.cornell.edu/critically_analyzing).’ The ‘[Compiling a High-Quality Bibliography](https://tamaraleemitchell.github.io/posts/2020-08-02-compiling-bib.html)’ post on this blog may also prove productive. In all cases, before you start the annotated bib, you should do a quick appraisal of multiple sources to identify the most relevant and productive sources for your project.
+
+
+#### Do I need to read the whole text to write my annotation?
+Once you have identified appropriate sources and created your MLA bibliography entry for each one, you’ll begin composing the annotations under each entry. Typically, this process does NOT entail reading the entire work. Rather, you will do some [informed skimming](https://learningcenter.unc.edu/tips-and-tools/skimming/), which often entails reading the abstract, introduction, and conclusion, as well as looking for major keywords (‘methodology,’ ‘contribution,’ ‘conclusion’ / ‘takeaway’ ‘implications,’ etc.) throughout and gleaning information about each of those items. Another wise strategy is to read ‘around’ the selected work. As two examples, if the work is an academic monograph, you can look for reviews by other scholars, and if it is an article or chapter in a special issue or edited volume, you can read the editor’s summary of the piece from the introduction to the volume. As with all methodological skills, you will get better at this with practice!
+
+#### How long is each entry? 
+Generally, an annotation is around one paragraph of approximately 150 words in length. However, this may vary widely depending on your needs or the individual source you are annotating. For instance, you might have slightly longer entries if you discuss how you will use the source in your current project. Alternatively, if this is for a class and your professor gives specific instructions, you might write more or less depending on the assignment criteria. As one final example, this could also vary based on the source. Some sources may have quite constrained methodology and findings, whereas others may be wide-reaching; thus, you could have one entry of 75 words and another of 300 words.
+
+#### What type of information goes in the annotations?
+Composing an annotated bibliography requires a variety of intellectual skills: informed library research (selection of appropriate sources), concise exposition (summary of text), succinct and relevant analysis (assessment of text). Your concise annotation will summarize the central theme and scope of the book or article with particular attention to disciplinary approach and methodology. Then you will assess the work with critical attention to methodology, contributions to knowledge, strengths and weaknesses of the study, etc.
+
+* A concise summary of the source, noting main argument or thesis statement.
+    * evaluate the authority or background of the author (if relevant; very brief) 
+    * comment on the intended audience
+    * note disciplinary approach
+* An evaluation of the research methodology (if applicable).
+* Its conclusions and contributions to knowledge.
+* Why the source is relevant in the chosen field of study
+* Its relationship(s) to other studies in the field
+* Information about the author’s background 
+* Your personal conclusions about the source (applicability to project; how you intend to use the source). 
+* The source’s strengths and weaknesses.
+
+On a personal note, I use annotated bibliographies all the time in my research. I find them particularly useful when I'm creating a comprehensive literature review for an article or chapter. I also assign them to my research assistants when RAs are doing preliminary research on a topic for me.
