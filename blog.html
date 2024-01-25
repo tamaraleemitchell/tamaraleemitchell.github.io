@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,6 +47,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -95,6 +96,33 @@ gtag('config', 'G-2Y033C89EM', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 
@@ -102,37 +130,37 @@ gtag('config', 'G-2Y033C89EM', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand navbar-dark ">
+    <nav class="navbar navbar-expand " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">TLM</span>
     </a>
   </div>
           <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./biography.html" rel="" target="">
- <span class="menu-text">BIOGRAPHY</span></a>
+    <a class="nav-link" href="./biography.html"> 
+<span class="menu-text">BIOGRAPHY</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text">RESEARCH</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">RESEARCH</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">TEACHING</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">TEACHING</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html" rel="" target="">
- <span class="menu-text">TALKS</span></a>
+    <a class="nav-link" href="./talks.html"> 
+<span class="menu-text">TALKS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./mas.html" rel="" target="">
- <span class="menu-text">MÁS</span></a>
+    <a class="nav-link" href="./mas.html"> 
+<span class="menu-text">MÁS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
- <span class="menu-text">BLOG</span></a>
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+<span class="menu-text">BLOG</span></a>
   </li>  
 </ul>
           <div class="quarto-navbar-tools">
@@ -165,7 +193,9 @@ gtag('config', 'G-2Y033C89EM', { 'anonymize_ip': true});
   </div>
   
 
+
 </header>
+
 
 
 
@@ -173,83 +203,79 @@ gtag('config', 'G-2Y033C89EM', { 'anonymize_ip': true});
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="methodologies" data-listing-date-sort="1693699200000" data-listing-file-modified-sort="1696011021388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="0" data-categories="methodologies" data-listing-date-sort="1693699200000" data-listing-file-modified-sort="1706203597282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1312">
 <div class="thumbnail">
-<p><a href="./posts/2023-09-03-annotated-bib.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2023-09-03-annotated-bib.html" class="no-external"></a></p><a href="./posts/2023-09-03-annotated-bib.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-09-03-annotated-bib.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2023-09-03-annotated-bib.html">
 <h3 class="no-anchor listing-title">
-The What and Why of the Annotated Bib
+<a href="./posts/2023-09-03-annotated-bib.html" class="no-external">The What and Why of the Annotated Bib</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-09-03-annotated-bib.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('methodologies'); return false;">
 methodologies
 </div>
 </div>
-<a href="./posts/2023-09-03-annotated-bib.html">
 <div class="listing-description">
-I was invited to teach my department’s proseminar (Graduate Professional Development Seminar) this year, and one of the training tasks we undertake involves ‘mapping the…
+<a href="./posts/2023-09-03-annotated-bib.html" class="no-external">I was invited to teach my department’s proseminar (Graduate Professional Development Seminar) this year, and one of the training tasks we undertake involves ‘mapping the…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-09-03-annotated-bib.html">
+<a href="./posts/2023-09-03-annotated-bib.html" class="no-external">
 <div class="listing-date">
 Sep 3, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="methodologies" data-listing-date-sort="1659312000000" data-listing-file-modified-sort="1696011021388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="1" data-categories="methodologies" data-listing-date-sort="1659312000000" data-listing-file-modified-sort="1706203597282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="799">
 <div class="thumbnail">
-<p><a href="./posts/2022-08-01-primary-sources.html"> <p class="card-img-top"><img src="assets/images/Belli_Library-search.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/2022-08-01-primary-sources.html" class="no-external"></a></p><a href="./posts/2022-08-01-primary-sources.html" class="no-external">
+<p class="card-img-top"><img src="assets/images/Belli_Library-search.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-08-01-primary-sources.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-08-01-primary-sources.html">
 <h3 class="no-anchor listing-title">
-Locating New Primary Sources
+<a href="./posts/2022-08-01-primary-sources.html" class="no-external">Locating New Primary Sources</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-08-01-primary-sources.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('methodologies'); return false;">
 methodologies
 </div>
 </div>
-<a href="./posts/2022-08-01-primary-sources.html">
 <div class="listing-description">
-In the Summer of 2021, I worked with two undergraduate research assistants on a new project related to Central American narrative, for which I was particularly invested in…
+<a href="./posts/2022-08-01-primary-sources.html" class="no-external">In the Summer of 2021, I worked with two undergraduate research assistants on a new project related to Central American narrative, for which I was particularly invested in…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-08-01-primary-sources.html">
+<a href="./posts/2022-08-01-primary-sources.html" class="no-external">
 <div class="listing-date">
 Aug 1, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="advice,PhD,professionalization" data-listing-date-sort="1630454400000" data-listing-file-modified-sort="1696011021388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="2" data-categories="advice,PhD,professionalization" data-listing-date-sort="1630454400000" data-listing-file-modified-sort="1706203597282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="981">
 <div class="thumbnail">
-<p><a href="./posts/2021-09-01-early-advice.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2021-09-01-early-advice.html" class="no-external"></a></p><a href="./posts/2021-09-01-early-advice.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-09-01-early-advice.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-09-01-early-advice.html">
 <h3 class="no-anchor listing-title">
-Starting the PhD off on the Right Foot
+<a href="./posts/2021-09-01-early-advice.html" class="no-external">Starting the PhD off on the Right Foot</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-09-01-early-advice.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('advice'); return false;">
 advice
@@ -261,33 +287,31 @@ PhD
 professionalization
 </div>
 </div>
-<a href="./posts/2021-09-01-early-advice.html">
 <div class="listing-description">
-<p>Things I wish I had known on day one of doctoral studies…</p>
+<a href="./posts/2021-09-01-early-advice.html" class="no-external">Things I wish I had known on day one of doctoral studies…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-09-01-early-advice.html">
+<a href="./posts/2021-09-01-early-advice.html" class="no-external">
 <div class="listing-date">
 Sep 1, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="advice,PhD" data-listing-date-sort="1617062400000" data-listing-file-modified-sort="1696011021388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12">
+<div class="quarto-post image-right" data-index="3" data-categories="advice,PhD" data-listing-date-sort="1617062400000" data-listing-file-modified-sort="1706203597282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2204">
 <div class="thumbnail">
-<p><a href="./posts/2021-03-30-Comps.html"> <p class="card-img-top"><img src="assets/images/Notecards-Comps.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/2021-03-30-Comps.html" class="no-external"></a></p><a href="./posts/2021-03-30-Comps.html" class="no-external">
+<p class="card-img-top"><img src="assets/images/Notecards-Comps.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2021-03-30-Comps.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-03-30-Comps.html">
 <h3 class="no-anchor listing-title">
-The Comprehensive Exam
+<a href="./posts/2021-03-30-Comps.html" class="no-external">The Comprehensive Exam</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-30-Comps.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('advice'); return false;">
 advice
@@ -296,65 +320,61 @@ advice
 PhD
 </div>
 </div>
-<a href="./posts/2021-03-30-Comps.html">
 <div class="listing-description">
-This post is for PhD students…
+<a href="./posts/2021-03-30-Comps.html" class="no-external">This post is for PhD students who are composing the reading lists for comprehensive exams. Below are tips and best practices from my experience and that mentors, colleagues…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-30-Comps.html">
+<a href="./posts/2021-03-30-Comps.html" class="no-external">
 <div class="listing-date">
 Mar 30, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="methodologies" data-listing-date-sort="1596326400000" data-listing-file-modified-sort="1696011021388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="4" data-categories="methodologies" data-listing-date-sort="1596326400000" data-listing-file-modified-sort="1706203597282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1165">
 <div class="thumbnail">
-<p><a href="./posts/2020-08-02-compiling-bib.html"> <p class="card-img-top"><img src="assets/images/GoogleScholar_CitedBy.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/2020-08-02-compiling-bib.html" class="no-external"></a></p><a href="./posts/2020-08-02-compiling-bib.html" class="no-external">
+<p class="card-img-top"><img src="assets/images/GoogleScholar_CitedBy.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2020-08-02-compiling-bib.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-08-02-compiling-bib.html">
 <h3 class="no-anchor listing-title">
-Compiling a High Quality Bibliography
+<a href="./posts/2020-08-02-compiling-bib.html" class="no-external">Compiling a High Quality Bibliography</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-08-02-compiling-bib.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('methodologies'); return false;">
 methodologies
 </div>
 </div>
-<a href="./posts/2020-08-02-compiling-bib.html">
 <div class="listing-description">
-An advisee was recently dealing with one of the many scholarly inconveniences of the coronavirus pandemic. After having to cancel a research trip to Mexico, she needed…
+<a href="./posts/2020-08-02-compiling-bib.html" class="no-external">An advisee was recently dealing with one of the many scholarly inconveniences of the coronavirus pandemic. After having to cancel a research trip to Mexico, she needed…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-08-02-compiling-bib.html">
+<a href="./posts/2020-08-02-compiling-bib.html" class="no-external">
 <div class="listing-date">
 Aug 2, 2020
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="reflections,pedagogy" data-listing-date-sort="1592179200000" data-listing-file-modified-sort="1696011021388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
+<div class="quarto-post image-right" data-index="5" data-categories="reflections,pedagogy" data-listing-date-sort="1592179200000" data-listing-file-modified-sort="1706203597282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2498">
 <div class="thumbnail">
-<p><a href="./posts/2020-06-15-in-defense-of-wandering.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2020-06-15-in-defense-of-wandering.html" class="no-external"></a></p><a href="./posts/2020-06-15-in-defense-of-wandering.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2020-06-15-in-defense-of-wandering.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-06-15-in-defense-of-wandering.html">
 <h3 class="no-anchor listing-title">
-In Defense of Wandering: Podcasting Pedagogy
+<a href="./posts/2020-06-15-in-defense-of-wandering.html" class="no-external">In Defense of Wandering: Podcasting Pedagogy</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-06-15-in-defense-of-wandering.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('reflections'); return false;">
 reflections
@@ -363,33 +383,31 @@ reflections
 pedagogy
 </div>
 </div>
-<a href="./posts/2020-06-15-in-defense-of-wandering.html">
 <div class="listing-description">
-<p>For millennia, wandering has been held as a font of aesthetic inspiration in the creative process…</p>
+<a href="./posts/2020-06-15-in-defense-of-wandering.html" class="no-external">For millennia, wandering has been held as a font of aesthetic inspiration in the creative process…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-06-15-in-defense-of-wandering.html">
+<a href="./posts/2020-06-15-in-defense-of-wandering.html" class="no-external">
 <div class="listing-date">
 Jun 15, 2020
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="professionalization,advice" data-listing-date-sort="1583020800000" data-listing-file-modified-sort="1696011021388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="6" data-categories="professionalization,advice" data-listing-date-sort="1583020800000" data-listing-file-modified-sort="1706203597282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="633">
 <div class="thumbnail">
-<p><a href="./posts/2020-03-01-inviting-professors-to-speak.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2020-03-01-inviting-professors-to-speak.html" class="no-external"></a></p><a href="./posts/2020-03-01-inviting-professors-to-speak.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2020-03-01-inviting-professors-to-speak.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-03-01-inviting-professors-to-speak.html">
 <h3 class="no-anchor listing-title">
-Inviting Professors to Speak at your Event: Best practices
+<a href="./posts/2020-03-01-inviting-professors-to-speak.html" class="no-external">Inviting Professors to Speak at your Event: Best practices</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-03-01-inviting-professors-to-speak.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('professionalization'); return false;">
 professionalization
@@ -398,33 +416,31 @@ professionalization
 advice
 </div>
 </div>
-<a href="./posts/2020-03-01-inviting-professors-to-speak.html">
 <div class="listing-description">
-An undergraduate student approached me in Spring 2020 to give a 20-minute talk on Benedict Anderson’s <em>Imagined Communities</em>. He described the event and then told me that the talk was to take place… the following week. To his credit, after I explained why that timeline was impossible, the student…
+<a href="./posts/2020-03-01-inviting-professors-to-speak.html" class="no-external">An undergraduate student approached me in Spring 2020 to give a 20-minute talk on Benedict Anderson’s <em>Imagined Communities</em>. He described the event and then told me that the…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-03-01-inviting-professors-to-speak.html">
+<a href="./posts/2020-03-01-inviting-professors-to-speak.html" class="no-external">
 <div class="listing-date">
 Mar 1, 2020
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="literature,reflections" data-listing-date-sort="1580428800000" data-listing-file-modified-sort="1696011021388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="7" data-categories="literature,reflections" data-listing-date-sort="1580428800000" data-listing-file-modified-sort="1706203597282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="860">
 <div class="thumbnail">
-<p><a href="./posts/2020-01-31-natalia-beristain.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2020-01-31-natalia-beristain.html" class="no-external"></a></p><a href="./posts/2020-01-31-natalia-beristain.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2020-01-31-natalia-beristain.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-01-31-natalia-beristain.html">
 <h3 class="no-anchor listing-title">
-Natalia Beristáin, Rosario Castellanos and Violence Against Women
+<a href="./posts/2020-01-31-natalia-beristain.html" class="no-external">Natalia Beristáin, Rosario Castellanos and Violence Against Women</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-01-31-natalia-beristain.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('literature'); return false;">
 literature
@@ -433,33 +449,31 @@ literature
 reflections
 </div>
 </div>
-<a href="./posts/2020-01-31-natalia-beristain.html">
 <div class="listing-description">
-At a January 2020 screening of <em>Los adioses</em>, I was invited to give a talk on the work of director Natalia Beristáin. The below is a transcript of that talk.
+<a href="./posts/2020-01-31-natalia-beristain.html" class="no-external">At a January 2020 screening of <em>Los adioses</em>, I was invited to give a talk on the work of director Natalia Beristáin. The below is a transcript of that talk.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-01-31-natalia-beristain.html">
+<a href="./posts/2020-01-31-natalia-beristain.html" class="no-external">
 <div class="listing-date">
 Jan 31, 2020
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="job market,advice" data-listing-date-sort="1575936000000" data-listing-file-modified-sort="1696011021388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="8" data-categories="job market,advice" data-listing-date-sort="1575936000000" data-listing-file-modified-sort="1706203597282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
 <div class="thumbnail">
-<p><a href="./posts/2019-12-10-job-market-advice.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2019-12-10-job-market-advice.html" class="no-external"></a></p><a href="./posts/2019-12-10-job-market-advice.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2019-12-10-job-market-advice.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2019-12-10-job-market-advice.html">
 <h3 class="no-anchor listing-title">
-The Academic Job Market
+<a href="./posts/2019-12-10-job-market-advice.html" class="no-external">The Academic Job Market</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2019-12-10-job-market-advice.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('job market'); return false;">
 job market
@@ -468,39 +482,37 @@ job market
 advice
 </div>
 </div>
-<a href="./posts/2019-12-10-job-market-advice.html">
 <div class="listing-description">
-<p>One of the most frequent questions students pose is “How do I prepare for the job market?”…</p>
+<a href="./posts/2019-12-10-job-market-advice.html" class="no-external">One of the most frequent questions students pose is “How do I prepare for the job market?”…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2019-12-10-job-market-advice.html">
+<a href="./posts/2019-12-10-job-market-advice.html" class="no-external">
 <div class="listing-date">
 Dec 10, 2019
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1575158400000" data-listing-file-modified-sort="1696011021388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1575158400000" data-listing-file-modified-sort="1706203597282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
 <div class="thumbnail">
-<p><a href="./posts/2019-12-01-about.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2019-12-01-about.html" class="no-external"></a></p><a href="./posts/2019-12-01-about.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2019-12-01-about.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2019-12-01-about.html">
 <h3 class="no-anchor listing-title">
-About …
+<a href="./posts/2019-12-01-about.html" class="no-external">About …</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2019-12-01-about.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-I decided to start this blog when a couple of students asked for advice and resources related to writing the dissertation and preparing for the job market. Every so often, I…
+<a href="./posts/2019-12-01-about.html" class="no-external">I decided to start this blog when a couple of students asked for advice and resources related to writing the dissertation and preparing for the job market. Every so often, I…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2019-12-01-about.html">
+<a href="./posts/2019-12-01-about.html" class="no-external">
 <div class="listing-date">
 Dec 1, 2019
 </div>
@@ -591,10 +603,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -604,8 +615,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -618,6 +638,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -661,6 +800,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -686,6 +826,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -751,10 +917,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center"><a href="https://github.com/tamaraleemitchell"> <i class="bi bi-github"></i></a> <a href="https://scholar.google.com/citations?user=W1JfaXUAAAAJ&amp;hl=en&amp;oi=sra"> <i class="ai ai-google-scholar"></i></a> <a href="https://twitter.com/spanglishtammy"> <i class="bi bi-twitter"></i></a> <a href="https://orcid.org/0000-0001-9163-2393"> <i class="ai ai-orcid"></i></a> <a href="mailto:tamaraleemitchell@ubc.ca"> <i class="bi bi-envelope"></i></a> <a href="assets/research/CV_TamaraMitchell.pdf"> <i class="ai ai-cv"></i></a></div>
-    <div class="nav-footer-right">© 2023, Tamara L. Mitchell</div>
+    <div class="nav-footer-center">
+<p><a href="https://github.com/tamaraleemitchell"> <i class="bi bi-github"></i></a> <a href="https://scholar.google.com/citations?user=W1JfaXUAAAAJ&amp;hl=en&amp;oi=sra"> <i class="ai ai-google-scholar"></i></a> <a href="https://twitter.com/spanglishtammy"> <i class="bi bi-twitter"></i></a> <a href="https://orcid.org/0000-0001-9163-2393"> <i class="ai ai-orcid"></i></a> <a href="mailto:tamaraleemitchell@ubc.ca"> <i class="bi bi-envelope"></i></a> <a href="assets/research/CV_TamaraMitchell.pdf"> <i class="ai ai-cv"></i></a></p>
+</div>
+    <div class="nav-footer-right">
+<p>© 2023, Tamara L. Mitchell</p>
+</div>
   </div>
 </footer>
+
 
 
 

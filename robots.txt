@@ -1,1 +1,1 @@
-Sitemap: https://github.com/tamaraleemitchell/tamaraleemitchell.github.io/sitemap.xml
+Sitemap: https://tamaraleemitchell.github.io/sitemap.xml
