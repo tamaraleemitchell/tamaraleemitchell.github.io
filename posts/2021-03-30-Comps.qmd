@@ -31,7 +31,7 @@ Composing the lists requires students to understand their research interests and
 
 #### Compiling Your Lists
 
-* See the entry, "[Compiling](/posts/2021-03-30-compiling-bib.qmd) a High-Quality Bibliography" for my tips on how I locate and select secondary / critical texts.
+* See the entry, ["Compiling a High-Quality Bibliography"](2020-08-02-compiling-bib.qmd) for my tips on how I locate and select secondary / critical texts.
 * Although reading list composition is primarily your task as the student, seek input from your committee chair regularly. 
 * Chat with other graduate students, particularly those who worked with your committee members, to hear about their experience and solicit advice.
 * For primary texts, I encourage students to include both canonical and lesser known works. This will ensure that you are participating in important scholarly conversations, but also bringing something new to the table. 

@@ -8,6 +8,7 @@ website:
   favicon: assets/images/icons/favicon.ico
   image: assets/images/icons/radish_icon.png
   navbar:
+    logo: assets/images/icons/radish_icon_trans.png
     logo-alt: "TLM"
     background: dark
     collapse: true
