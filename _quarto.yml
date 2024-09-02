@@ -8,9 +8,11 @@ website:
   favicon: assets/images/icons/favicon.ico
   image: assets/images/icons/radish_icon.png
   navbar:
-    #logo: img/djm.png
-    background: light
-    collapse: false
+    logo: assets/images/icons/radish_icon_trans.png
+    logo-alt: "TLM"
+    background: dark
+    collapse: true
+    collapse-below: md
     right:
       - href: biography.qmd
         text: BIOGRAPHY

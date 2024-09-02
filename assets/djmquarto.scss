@@ -4,8 +4,8 @@ $primary: #fede00;
 $warning: #412973;
 $navbar-fg: $warning;
 $navbar-bg: $primary;
-$nabbar-dark-hover-color: $primary;
-$navbar-light-hover-color: $primary;
+$nabbar-dark-hover-color: $warning;
+$navbar-light-hover-color: $warning;
 $body-color: #495057 !default;
 
 // import google fonts
@@ -64,60 +64,9 @@ div.quarto-about-solana {
 }
 
 
-.navbar-nav {
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 
 .navbar {
   font-family: $font-family-serif;
-  color: $primary;
-  border: none;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  .nav-link {
-    color: $navbar-fg;
-  }
-  .nav-item {
-    color: $navbar-fg;
-  }
-  .nav-item a,
-  .nav-item a:after,
-  .nav-item a:before {
-    color: $navbar-fg;
-    transition: all .5s;
-  }
-  .nav-item a {
-    position: relative;
-  }
-  .nav-item a:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 0%;
-    content: '.'; /* make invisible, dot beneath links */
-    color: transparent;
-    height: .08em;
-    pointer-events: none;
-    background-color: $navbar-fg;
-  }
-
-  .nav-item a:hover:after {
-    width: 85%;
-    font-weight: normal;
-  }
-
-  .nav-item a.active:after {
-    width: 85%;
-    color: transparent;
-    height: .08em;
-    font-weight: normal;
-    background-color: $navbar-fg;
-  }
 }
 
 
