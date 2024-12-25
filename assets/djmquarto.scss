@@ -3,7 +3,7 @@
 $primary: #fede00;
 $warning: #412973;
 $navbar-fg: $warning;
-$navbar-bg: $primary;
+$navbar-bg: #ffffff;
 $nabbar-dark-hover-color: $warning;
 $navbar-light-hover-color: $warning;
 $body-color: #495057 !default;
@@ -67,8 +67,16 @@ div.quarto-about-solana {
 
 .navbar {
   font-family: $font-family-serif;
+  a:hover {
+    color: lighten($warning, 30%);
+  }
 }
 
+.navbar-nav {
+  .nav-link.active {
+    color: $warning;
+  }
+}
 
 .nav-footer-center {
   a {
