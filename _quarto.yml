@@ -10,7 +10,7 @@ website:
   navbar:
     logo: assets/images/icons/radish_icon_trans.png
     logo-alt: "TLM"
-    background: dark
+    background: light
     collapse: true
     collapse-below: md
     right:
@@ -22,13 +22,11 @@ website:
         text: TEACHING
       - href: talks.qmd
         text: TALKS
-      - href: mas.qmd
-        text: MÁS
       - href: blog.qmd
         text: BLOG
   page-footer:
     border: false
-    right: "© 2023, Tamara L. Mitchell"
+    right: "© 2025, Tamara L. Mitchell"
     center: |
       <a href="https://github.com/tamaraleemitchell">
       <i class="bi bi-github"></i></a>
