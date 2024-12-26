@@ -15,8 +15,6 @@ about:
 <i class="bi bi-github"></i></a> 
 <a href="https://scholar.google.com/citations?user=W1JfaXUAAAAJ&hl=en&oi=sra">
 <i class="ai ai-google-scholar"></i></a> 
-<a href="https://twitter.com/spanglishtammy"> 
-<i class="bi bi-twitter"></i></a> 
 <a href="https://orcid.org/0000-0001-9163-2393"> 
 <i class="ai ai-orcid"></i></a> 
 <a href="mailto:tamara.mitchell@ubc.ca"> 
@@ -28,7 +26,6 @@ about:
 Tamara L. Mitchell is Assistant Professor of Spanish at the University of British Columbia, Vancouver, where she teaches 20th- and 21st-century Latin American literatures and cultures. Her research examines the relationship among aesthetics, politics, and the literary tradition in the current epoch of neoliberal globalization, with a focus on Mexican and Central American narrative fiction. 
 
 Assistant Professor  
-PI, Sound & Humanities Research Cluster, 2022-24  
 [Department of French, Hispanic and Italian Studies](https://fhis.ubc.ca/)  
 [University of British Columbia](https://ubc.ca/)<br>
 

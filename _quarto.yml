@@ -18,22 +18,20 @@ website:
         text: Biography
       - href: research.qmd
         text: Research
-      - href: teaching.qmd
-        text: Teaching
       - href: talks.qmd
         text: Talks
+      - href: teaching.qmd
+        text: Teaching
       - href: blog.qmd
         text: Blog
   page-footer:
     border: false
-    right: "© 2025, Tamara L. Mitchell"
+    right: "© 2025 Tamara L. Mitchell"
     center: |
       <a href="https://github.com/tamaraleemitchell">
       <i class="bi bi-github"></i></a>
       <a href="https://scholar.google.com/citations?user=W1JfaXUAAAAJ&hl=en&oi=sra">
       <i class="ai ai-google-scholar"></i></a>
-      <a href="https://twitter.com/spanglishtammy">
-      <i class="bi bi-twitter"></i></a>
       <a href="https://orcid.org/0000-0001-9163-2393">
       <i class="ai ai-orcid"></i></a>
       <a href="mailto:tamaraleemitchell@ubc.ca">
