@@ -5,8 +5,8 @@ format:
     page-layout: full
 about:
   template: solana
-  image: assets/images/TamaraMitchell.jpg
-  image-width: 20em
+  image: assets/images/Bowen-Island_Profile.jpg
+  image-width: 23em
   image-shape: rectangle
 ---
 
