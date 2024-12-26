@@ -15,15 +15,15 @@ website:
     collapse-below: md
     right:
       - href: biography.qmd
-        text: BIOGRAPHY
+        text: Biography
       - href: research.qmd
-        text: RESEARCH
+        text: Research
       - href: teaching.qmd
-        text: TEACHING
+        text: Teaching
       - href: talks.qmd
-        text: TALKS
+        text: Talks
       - href: blog.qmd
-        text: BLOG
+        text: Blog
   page-footer:
     border: false
     right: "© 2025, Tamara L. Mitchell"
@@ -46,6 +46,7 @@ format:
     theme:
       - cosmo
       - assets/djmquarto.scss
+    fontsize: 1.2em
     css: assets/styles.css
     toc: true
     include-in-header: assets/header.html
