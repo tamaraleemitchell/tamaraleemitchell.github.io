@@ -1,6 +1,7 @@
 /*-- scss:defaults --*/
 
-$primary: #fede00;
+/* $primary: #fede00; */
+$primary: #412973;
 $warning: #412973;
 $navbar-fg: $warning;
 $navbar-bg: #ffffff;
@@ -10,13 +11,13 @@ $body-color: #495057 !default;
 
 // import google fonts
 
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond");
-@import url("https://fonts.googleapis.com/css2?family=Commissioner");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab");
 
 
 
-$font-family-sans-serif:  "Commissioner", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-serif: "EB Garamond",  Georgia, Cambria, "Times New Roman", Times, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-sans-serif:  "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-serif: "Josefin Slab",  Georgia, Cambria, "Times New Roman", Times, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 /*-- scss:rules --*/
 
