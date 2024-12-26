@@ -9,7 +9,10 @@ title: |
   <br>
   <br>
   <br>
-title-block-banner: assets/images/PHHLuncheon_March2020.jpg
+  <br>
+  <br>
+  <br>
+title-block-banner: assets/images/UCI2024_Aurality.jpeg
 ---
 
 
