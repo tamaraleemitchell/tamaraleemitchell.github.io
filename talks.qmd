@@ -1,6 +1,18 @@
 ---
-title: "Talks"
+pagetitle: "Talks" 
+title: |
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+title-block-banner: assets/images/PHHLuncheon_March2020.jpg
 ---
+
+
 
 ## Invited Talks
 * “Necropolitical Romeo and Juliet: Migrant Sonority against Dehumanization in Emiliano Monge’s Among the Lost.” University of Cincinnati, Romance and Arabic Languages and Literatures, Taft Public Lecture (February 2023)
