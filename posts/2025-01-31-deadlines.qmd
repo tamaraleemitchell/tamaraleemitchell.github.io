@@ -57,8 +57,8 @@ submit materials by a fixed date for a fellowship competition (hard deadline), a
 first draft of a thesis chapter has a soft deadline because students select and
 manage those deadlines themselves / in consultation with their advisors. Given
 this autonomy and the fact that nothing seems to be riding on successfully
-making a soft deadline, people—[and academics in
-particular](https://www.insidehighered.com/advice/2012/08/01/essay-academics-and-importance-deadlines)—sometimes
+making a soft deadline,
+people&mdash;[and academics in particular](https://www.insidehighered.com/advice/2012/08/01/essay-academics-and-importance-deadlines)&mdash;sometimes
 and even often miss soft deadlines.
 
 But I want to argue that soft deadlines aren’t soft at all and should be treated
@@ -76,10 +76,15 @@ human than me, perhaps you kept your resolution and you’re now a fit, parlante
 italianə who knows how _In Search of Lost Time_ ends. But if you’re like me, you
 probably kept at it for three or four weeks before one missed Duolingo session
 turned into a whole week off in March and by April that Duolingo owl
-![](/assets/images/Duo-Owl-Sad.jpeg) looked like he was melting on your
+looked like he was melting on your
 forgotten phone app. The same thing can happen with soft deadlines. The more
 often you let a soft deadline slide, the more likely you are to miss future
 goals. 
+
+::: {.column-margin}
+![](/assets/images/Duo-Owl-Sad.jpeg)
+:::
+
 
 _This can have serious consequences if it becomes a habit._ 
 
@@ -155,14 +160,36 @@ deadlines.
 
 ### Making and Meeting Realistic Deadlines
 
-NB: I revisit steps 1 and 2 multiple times in order to determine time-to-completion.
+NB: I revisit the first two bullets multiple times in order to determine time-to-completion.
 
 * Calculate how long the task will take you. 
-    *  This may require breaking it down into manageable chunks. For instance, I’m writing this post in January 2025 and I want to have a book proposal and sample chapter finished by August 2025, and I have divided those two items into various smaller goals. For the proposal, for instance, I have soft deadlines for the short description / project abstract, the detailed description, chapter outline and descriptions, etc., because it’s easier for me to make an informed guess about effort / time required for the smaller bits.
-* Review your upcoming calendar. Take into account both regular events and tasks (e.g., teaching, research meetings, departmental talk series, etc.) and occasional or one-off items (trip home, vacation, professionalization workshop, etc.). 
-* Based on the two preceding steps, ask yourself: By what date can I reasonably complete in this new to-do list item? 
-* Put soft deadlines into calendar! If I don’t do this step, then I may forget to take these goals / deadlines into account when scheduling future deadlines. 
-* Know yourself: There are some soft deadlines that I know I will meet without difficulty or delay; however, there are others that require a bit of motivation. In those cases, I take steps to ensure that I will meet a given deadline. For instance, when I have essays to mark, I know that I will pretty much always get them back to my students within two weeks; however, if I want to return the papers a bit early (to free up future time for a different task, to give my students more time to consider feedback before a final paper, etc.), I inform my students that I plan to have them back within a week. Making myself accountable to other people is a great personal motivator to get things done on time. Figure out what tricks work for you and use those wisely to meet your soft deadlines. With that, the closing section includes strategies that work for me!
+    *  This may require breaking it down into manageable chunks. For instance, 
+    I’m writing this post in January 2025 and I want to have a book proposal and
+    sample chapter finished by August 2025, and I have divided those two items 
+    into various smaller goals. For the proposal, for instance, I have soft 
+    deadlines for the short description / project abstract, the detailed 
+    description, chapter outline and descriptions, etc., because it’s easier 
+    for me to make an informed guess about effort / time required for the 
+    smaller bits.
+* Review your upcoming calendar. Take into account both regular events and tasks
+(e.g., teaching, research meetings, departmental talk series, etc.) and 
+occasional or one-off items (trip home, vacation, professionalization workshop, 
+etc.). 
+* Based on the two preceding steps, ask yourself: By what date can I reasonably 
+complete this new to-do list item? 
+* Put soft deadlines into calendar! If I don’t do this step, then I may forget 
+to take these goals / deadlines into account when scheduling future deadlines. 
+* Know yourself: There are some soft deadlines that I know I will meet without 
+difficulty or delay; however, there are others that require a bit of motivation.
+In those cases, I take steps to ensure that I will meet a given deadline. For 
+instance, when I have essays to mark, I know that I will pretty much always get 
+them back to my students within two weeks; however, if I want to return the 
+papers a bit early (to free up future time for a different task, to give my 
+students more time to consider feedback before a final paper, etc.), I inform 
+my students that I plan to have them back within a week. Making myself 
+accountable to other people is a great personal motivator to get things done on
+time. Figure out what tricks work for you and use those wisely to meet your soft
+deadlines. With that, the closing section includes strategies that work for me!
 
 ### Accountability Strategies
 
@@ -170,14 +197,40 @@ If you miss a deadline, be gentle with yourself, but also consider how you can
 avoid making it a habit. Below are a few strategies that I use to hold myself
 accountable and meet my soft deadlines:
 
-* Keeping a calendar: My calendar is crucial for my own time management, and I often look at my big picture calendar (upcoming abstract submissions or appointments, meetings or committee work that will take chunks of time, draft deadlines, etc.) when setting soft deadlines for myself and communicating those deadlines with others (students, writing group members, journal editors, etc.). 
-* Set achievable soft deadlines: Break ‘big’ tasks, such as a finished draft of a thesis chapter, into a series of smaller tasks (e.g., literature review, introductory section, methodology, literary analysis 1, literary analysis 2, conclusion, bibliography) that are more manageable and tangible. 
-* Use hard deadlines to meet soft deadlines: For instance, if I know I need a chapter or article finished by a particular date, I present on the project at a conference to motivate my writing. Creating an abstract six months in advance and writing a 20-minute presentation two months before the full-draft deadline kickstarts the essay, and then I use that progress as a springboard to complete the draft. This aligns with the advice to [be strategic about your writing](https://tamaraleemitchell.github.io/posts/2021-09-01-early-advice.html#be-strategic-about-your-writing) from an earlier post.
-* Communicating soft deadlines with others: This may seem silly (or crazy), but I tell my hair stylist about my research every three months when I get my hair cut. Knowing that she’ll ask me about the project motivates me to get things done so that I can report progress. This was legitimately one of the most important factors to submitting my first book, and my stylist will be getting a shoutout in the acknowledgments when that book comes out. If using your hair stylist as an accountability partner isn’t your thing, tell your partner or a friend or family member. And of course letting your advisor know to anticipate a draft is a great way to make a soft deadline more firm. 
-* Writing Groups: I’m part of two writing groups at present, and preparing drafts for their feedback not only improves my writing, but it gets me to write coherent essays even when there isn’t a hard deadline. 
+* Keeping a calendar: My calendar is crucial for my own time management, and I 
+often look at my big picture calendar (upcoming abstract submissions or 
+appointments, meetings or committee work that will take chunks of time, 
+draft deadlines, etc.) when setting soft deadlines for myself and communicating 
+those deadlines with others (students, writing group members, journal editors, 
+etc.). 
+* Set achievable soft deadlines: Break ‘big’ tasks, such as a finished draft of 
+a thesis chapter, into a series of smaller tasks (e.g., literature review, 
+introductory section, methodology, literary analysis 1, literary analysis 2, 
+conclusion, bibliography) that are more manageable and tangible. 
+* Use hard deadlines to meet soft deadlines: For instance, if I know I need a 
+chapter or article finished by a particular date, I present on the project at a 
+conference to motivate my writing. Creating an abstract six months in advance 
+and writing a 20-minute presentation two months before the full-draft deadline 
+kickstarts the essay, and then I use that progress as a springboard to complete
+the draft. This aligns with the advice to 
+[be strategic about your writing](https://tamaraleemitchell.github.io/posts/2021-09-01-early-advice.html#be-strategic-about-your-writing) 
+from an earlier post.
+* Communicating soft deadlines with others: This may seem silly (or crazy), but
+I tell my hair stylist about my research every three months when I get my hair 
+cut. Knowing that she’ll ask me about the project motivates me to get things 
+done so that I can report progress. This was legitimately one of the most 
+important factors to submitting my first book, and my stylist will be getting a
+shoutout in the acknowledgments when that book comes out. If using your hair 
+stylist as an accountability partner isn’t your thing, tell your partner or a 
+friend or family member. And of course letting your advisor know to anticipate 
+a draft is a great way to make a soft deadline more firm. 
+* Writing Groups: I’m part of two writing groups at present, and preparing 
+drafts for their feedback not only improves my writing, but it gets me to write
+coherent essays even when there isn’t a hard deadline. 
 
-Here is a great piece on how to set and meet soft deadlines from _Inside Higher
-Ed_: [Managing Deadlines in Grad School](https://www.insidehighered.com/blogs/gradhacker/managing-deadlines-grad-school),
+Here is a great piece on how to set and meet soft deadlines from 
+_Inside Higher Ed_: 
+[Managing Deadlines in Grad School](https://www.insidehighered.com/blogs/gradhacker/managing-deadlines-grad-school),
 by Kaitlin Gallagher 
 
 Ultimately, setting and maintaining deadlines is about time management and
