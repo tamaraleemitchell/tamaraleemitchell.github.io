@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2025-01-31">
+
+<title>The Dreaded Soft Deadline – TLM</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../assets/images/icons/favicon.ico" rel="icon">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-39457ffd676271395aeb499ef68577f1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2Y033C89EM"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-2Y033C89EM', { 'anonymize_ip': true});
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-md " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/images/icons/radish_icon_trans.png" alt="TLM" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">TLM</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../biography.html"> 
+<span class="menu-text">Biography</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../talks.html"> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hard-versus-soft-deadlines" id="toc-hard-versus-soft-deadlines" class="nav-link active" data-scroll-target="#hard-versus-soft-deadlines">Hard versus Soft Deadlines</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Dreaded Soft Deadline</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">professionalization</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 31, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="how-to-use-deadlines-to-propel-thesis-writing.-and-what-a-deadline-definitely-is-not." class="level4">
+<h4 class="anchored" data-anchor-id="how-to-use-deadlines-to-propel-thesis-writing.-and-what-a-deadline-definitely-is-not.">How to use deadlines to propel thesis writing. And what a deadline definitely is not.</h4>
+<p>At the 2025 MLA conference in New Orleans, a colleague shared that one of her students, a PhD candidate, begged her to “stop being nice” about deadlines and “create consequences” if the student continued to miss submission dates for dissertation chapters. As a mentor who has the dual task of holding advisees accountable, but also training them in how to be responsible and autonomous researchers, my colleague was at a loss for how to respond to this request. It soon became clear that her dilemma was not an isolated case, as the rest of us at the hotel bar also have students who struggle with making steady progress once they arrive at candidacy (as well as a keen memory of our own struggles as graduate students!). What we arrived at by the end of the night was that the problem, perhaps, lies in misconceptions about the “soft” deadline, which I address below.</p>
+<p>The MA thesis / PhD dissertation stage can be one of the most daunting moments of graduate school. After carefully structured time and projects (coursework + term papers, comprehensive / MA exams, proposal + defence, etc.), students arrive to the thesis/dissertation and suddenly must compose a much longer piece of work with nebulous benchmarks and deadlines. Figuring out how to make regular progress and keep yourself on track for a timely graduation is one of the most important, and potentially difficult, tasks of graduate school. But if you do so, I can almost guarantee that it will make the writing process easier and more enjoyable, and it will set you up with lifelong time management skills that will serve you in many settings and roles. Your advisor will help create structure via meetings, check-ins, and draft deadlines, but, as you will soon learn, you’ll have a lot of agency and autonomy in structuring your time and deciding when you submit pieces for advisor review. This post is precisely about best practices for setting such ‘soft’ deadlines, which seem fungible, but are (or maybe should be) less flexible than you might think. Finally, it is a gentle caution about what NOT to do regarding deadlines, both for yourself and for others.</p>
+</section>
+<section id="hard-versus-soft-deadlines" class="level3">
+<h3 class="anchored" data-anchor-id="hard-versus-soft-deadlines">Hard versus Soft Deadlines</h3>
+<p>As academics, we’re all familiar hard deadlines. You met a hard deadline when you applied to graduate school, submitted final papers during coursework, defended your thesis proposal, sent an abstract to present at a conference, applied for a travel grant, etc. These deadlines are typically bureaucratic and non-negotiable, and frequently, as in the case of grants and conference proposals, the recipient of your materials is unknown to you. People don’t typically miss hard deadlines, and if you do, there are immediate and material consequences (no grant money, no conference presentation on your CV, late penalty on a paper, etc.).</p>
+<p>Soft deadlines are usually more individualized and self-determined, and they can seem more like a guideline than a requirement. Whereas all applicants must submit materials by a fixed date for a fellowship competition (hard deadline), a first draft of a thesis chapter has a soft deadline because students select and manage those deadlines themselves. Given this autonomy and the fact that nothing seems to be riding on successfully making a soft deadline, people—<a href="https://www.insidehighered.com/advice/2012/08/01/essay-academics-and-importance-deadlines">and academics in particular</a>—sometimes and even often miss soft deadlines.</p>
+<p>But I want to argue that soft deadlines aren’t soft at all and should be treated much more like hard deadlines. This is because disregarding them has an effect on you—both in the short- and the long-term—as well as on others, and there can be major consequences for missing them too often.</p>
+<section id="real-life-consequences-of-missing-a-soft-deadline" class="level4">
+<h4 class="anchored" data-anchor-id="real-life-consequences-of-missing-a-soft-deadline">Real Life Consequences of Missing a Soft Deadline</h4>
+<p>First, missing deadlines can become a habit. Think about the last time you made a New Year’s resolution… Maybe you determined to read 10 pages of a Proust a day for the whole year, run 2 miles a day every evening, or faithfully complete a daily Italian lesson on Duolingo before breakfast each day. If you’re a more resolute humyn than me, maybe you kept your resolution and you’re now a fit, parlante italianə who knows how <em>In Search of Lost Time</em> ends. But if you’re like me, you probably kept at it for three or four weeks before one missed Duolingo session turned into a whole week off in March and by April that Duolingo owl <img src="../assets/images/Due-Owl-Sad.jpg" class="img-fluid"> looked like he was melting on your forgotten phone app. The same thing can happen with soft deadlines. The more often you let a soft deadline slide, the more likely you are to miss future goals.</p>
+<p><em>This can have serious consequences if it becomes a habit.</em></p>
+<p>First, you’re sort of training yourself to take self-imposed deadlines less seriously, which affects time to degree, but can also seep out outside of thesis writing to affect other areas of your life.</p>
+<p>Second, you are demonstrating to your advisor that you have less-than-stellar time management skills. As you progress through the MA or PhD, you should be improving on a variety factors, such as clarity of writing, presentation skills, teaching abilities, grant writing competency, and, crucially, time management. Your advisor and committee members are expected to comment on each of these abilities in their letters of recommendation, and while your mentor will likely not explicitly state “this person has poor time management and cannot be relied upon to submit work on time,” if they do <em>not</em> include a positive evaluation of your time management in a letter of support, it can read like a glaring omission. Determining ambitious but feasible soft deadlines, communicating those deadlines to your advisor, and then reliably meeting them is part of your professionalization in graduate school. In turn, these skills will set you up for solid letters of recommendation that emphasize how you will be a responsible and dependable colleague and mentor in your future career.</p>
+<p>Related to point two: In academia, your advisor is an important resource and, hopefully for those who want to be academics, a future colleague. If you have similar research interests, they might invite you to present on panels, contribute a chapter to an edited volume, collaborate on a special issue, etc. Likewise, advisors are a great networking resource, and they are often glad to set up potential collaborations with fellow colleagues. However, these opportunities are generally only offered to former students who have demonstrated reliability—those who consistently meet deadlines, respect others’ time, and maintain clear communication about availability and scheduling. This makes good sense given that advisors are putting their names on the line when they recommend students for opportunities.</p>
+<p>Third, missing soft deadlines is cruel to “future you.” Pushing back short-term soft deadlines means that, in all likelihood, you will have to either sacrifice quality for speed or extend the long-term objective that those soft deadlines are building toward. In regard to the dissertation, if you plan to graduate by May of your sixth year, and you set a 2.5-year writing timeline to arrive at that goal—allowing, for instance, four months per chapter, with time for advisor and committee feedback followed by revisions—then delaying a chapter by one, two, or six months eats into the time you have allotted yourself to work on other chapters in the future. This has major consequences for “future you,” who will now have to cut corners and rush or delay graduation. Be kind to future you :)</p>
+<p>Fourth, missing soft deadlines affects others and, crucially, it affects how others view you. When my advisees tell me to expect a chapter draft, I block out time in my calendar to read that draft. If the student tells me they’ll send a draft in two months, I take that into account when I’m managing my own time, which might mean, for instance, that I turn down an article review request or avoid scheduling meetings on a particular day. If that student then pushes the deadline back or, worse, simply fails to inform me that they won’t be submitting the draft as arranged, that has real effects on my life. If this happens once or twice, I’m not excessively bothered, but if it becomes a habit, I find myself less willing to plan ahead in anticipation of receiving their work, because I have learned not to expect it when promised. Moreover, consciously or not, I start to lose faith in that student’s ability to follow through, and their work must become less of a priority in my schedule because they are clearly not respecting my time.</p>
+</section>
+<section id="dont-fret" class="level4">
+<h4 class="anchored" data-anchor-id="dont-fret">Don’t fret</h4>
+<p>Here, I want to emphasize that missing a deadline or three or pushing back a couple of draft submissions is <em>not a huge faux pas</em>. Life happens! Your advisor understands that (1) you are humyn and may need to adjust your schedule, (2) you are juggling lots of responsibilities (TAships, family, conference presentations, etc. etc.) that will periodically affect you, and (3) deadlines are often ambitious on purpose, which means that we must occasionally extend them. What this post seeks to communicate is that setting achievable soft deadlines is a skill and it may take practice. It is part of time management, which involves understanding how to set achievable goals (I tell my students to be “ambitious but humane”), anticipating how long you’ll need for different tasks, and developing strategies that work for you to meet deadlines. Likewise, soft deadlines do have real consequences on both you and others, and you’ll want to communicate with people who are impacted by your deadlines to mitigate inconvenience and frustration that might arise.</p>
+<p>If you miss a deadline, be gentle with yourself, but also consider how you can avoid making it a habit. Here are a few strategies that I use to hold myself accountable and meet my soft deadlines:<br>
+* Keeping a calendar: My calendar is crucial for my own time management, and I often look at my big picture calendar (upcoming abstract submissions or appointments, meetings or committee work that will take chunks of time, draft deadlines, etc.) when setting soft deadlines for myself and communicating those deadlines with others (students, writing group members, journal editors, etc.). * Set achievable soft deadlines: Break ‘big’ tasks, such as a finished draft of a thesis chapter, into a series of smaller tasks (e.g., literature review, introductory section, methodology, literary analysis 1, literary analysis 2, conclusion, bibliography) that are more manageable and tangible. * Use hard deadlines to meet soft deadlines: For instance, if I know I need a chapter or article finished by a particular date, I present on the project at a conference to motivate my writing. Creating an abstract six months in advance and writing a 20-minute presentation two months before the full-draft deadline kickstarts the essay, and then I use that progress as a springboard to complete the draft. This aligns with the advice to <a href="https://tamaraleemitchell.github.io/posts/2021-09-01-early-advice.html#be-strategic-about-your-writing">be strategic about your writing</a> from an earlier post. * Communicating soft deadlines with others: This may seem silly (or crazy), but I tell my hair stylist about my research every three months when I get my hair cut. Knowing that she’ll ask me about the project motivates me to get things done so that I can report progress. This was legitimately one of the most important factors to submitting my first book, and my stylist will be getting a shoutout in the acknowledgments when that book comes out. If using your hair stylist as an accountability partner isn’t your thing, tell your partner or a friend or family member. And of course letting your advisor know to anticipate a draft is a great way to make a soft deadline more firm. * Writing Groups: I’m part of two writing groups at present, and preparing drafts for their feedback not only improves my writing, but it gets me to write coherent essays even when there isn’t a hard deadline.</p>
+<p>Here is a great piece on how to set and meet soft deadlines from <em>Inside Higher Ed</em>: <a href="https://www.insidehighered.com/blogs/gradhacker/managing-deadlines-grad-school">Managing Deadlines in Grad School</a>, by Kaitlin Gallagher</p>
+<p>Ultimately, setting and maintaining deadlines is about time management and demonstrating accountability, both to yourself and to others who are affected by your deadlines. By the final stages of your education—which are the early stages of your career!—you should be developing personal strategies that work for you to meet soft deadlines. This will show your supervisor, committee members, and colleagues that you are self-sufficient and have the capacity to structure and generate your own work. Whether you want to stay in academia, go to alt-ac, or get a job in the public or private sector, those are deeply important skills.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/tamaraleemitchell\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><a href="https://github.com/tamaraleemitchell"> <i class="bi bi-github"></i></a> <a href="https://scholar.google.com/citations?user=W1JfaXUAAAAJ&amp;hl=en&amp;oi=sra"> <i class="ai ai-google-scholar"></i></a> <a href="https://orcid.org/0000-0001-9163-2393"> <i class="ai ai-orcid"></i></a> <a href="mailto:tamaraleemitchell@ubc.ca"> <i class="bi bi-envelope"></i></a> <a href="assets/research/CV_TamaraMitchell.pdf"> <i class="ai ai-cv"></i></a></p>
+</div>
+    <div class="nav-footer-right">
+<p>© 2025 Tamara L. Mitchell</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
