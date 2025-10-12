@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -29,14 +29,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3e8618a74852869276aed9ac3da73846.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a9c4a0e894db1f2026576a0ee7b19f72.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -82,7 +83,8 @@ background-size: cover;
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/images/icons/radish_icon_trans.png" alt="TLM" class="navbar-logo">
+    <img src="./assets/images/icons/radish_icon_trans.png" alt="TLM" class="navbar-logo light-content">
+    <img src="./assets/images/icons/radish_icon_trans.png" alt="TLM" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">TLM</span>
@@ -160,8 +162,6 @@ background-size: cover;
 <section id="upcoming-presentations" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="upcoming-presentations">Upcoming Presentations</h2>
 <ul>
-<li>“Migrant Sonority and More-than-Human Perspectivism in Emiliano Monge’s Las tierras arrasadas.” University of Utah, Department of World Languages &amp; Cultures Lecture Series, September 2025</li>
-<li>“Muffled Protest: Silence as Activism.” MexicanEasts, Brigham Young University, UT, September 2025</li>
 <li>“Synesthetic Listening and Queer ‘Response-ability’ as Aural Care in Contemporary Mexican Narrative.” Modern Language Association Conference, Toronto, January 2026</li>
 </ul>
 <div class="column-page-left">
@@ -173,6 +173,7 @@ background-size: cover;
 <section id="past-invited-talks" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="past-invited-talks">Past Invited Talks</h2>
 <ul>
+<li><p>“Migrant Sonority and More-than-Human Perspectivism in Emiliano Monge’s Las tierras arrasadas.” University of Utah, Department of World Languages &amp; Cultures Lecture Series, September 2025</p></li>
 <li><p>“Sound Unseen: Auscultating Gendered Violence in Mexican Fiction.” Department of Spanish and Portuguese Lecture Series, University of Toronto (March 2025)</p></li>
 <li><p>“Echoes of a Migrant Crisis: Narrative Attunement and Sound as Ethics in 21st-Century Border Novels.” Reed College, Portland, OR (April 2024)</p></li>
 <li><p>“Listening in the Anthropocene: Migrant Sonority and More-than-Human Perspectivism in Emiliano Monge’s Las tierras arrasadas.” El coloquio interdisciplinario, Department of Languages and Cultures, Western University Ontario (March 2024)</p></li>
@@ -252,13 +253,14 @@ background-size: cover;
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
