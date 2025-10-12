@@ -16,14 +16,9 @@ title-block-banner: assets/images/UCI2024_Aurality.jpeg
 ---
 
 ## Upcoming Presentations
-* “Migrant Sonority and More-than-Human Perspectivism in Emiliano Monge’s Las
-tierras arrasadas.” University of Utah, Department of World Languages & Cultures
-Lecture Series, September 2025
-* “Muffled Protest: Silence as Activism.” MexicanEasts, Brigham Young University, UT, September 2025
 * “Synesthetic Listening and Queer ‘Response-ability’ as Aural Care in
 Contemporary Mexican Narrative.” Modern Language Association Conference,
 Toronto, January 2026
-
 
 
 ::: {.column-page-left}
@@ -33,6 +28,9 @@ Toronto, January 2026
 :::
 
 ## Past Invited Talks
+* “Migrant Sonority and More-than-Human Perspectivism in Emiliano Monge’s Las
+tierras arrasadas.” University of Utah, Department of World Languages & Cultures
+Lecture Series, September 2025
 * “Sound Unseen: Auscultating Gendered Violence in Mexican Fiction.” Department
 of Spanish and Portuguese Lecture Series, University of Toronto (March 2025)
 * “Echoes of a Migrant Crisis: Narrative Attunement and Sound as Ethics in 21st-Century Border Novels.” Reed College, Portland, OR (April 2024)
