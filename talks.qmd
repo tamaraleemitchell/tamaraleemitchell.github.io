@@ -15,10 +15,6 @@ title: |
 title-block-banner: assets/images/UCI2024_Aurality.jpeg
 ---
 
-## Upcoming Presentations
-* “Synesthetic Listening and Queer ‘Response-ability’ as Aural Care in
-Contemporary Mexican Narrative.” Modern Language Association Conference,
-Toronto, January 2026
 
 
 ::: {.column-page-left}
@@ -28,6 +24,9 @@ Toronto, January 2026
 :::
 
 ## Past Invited Talks
+* “Synesthetic Listening and Queer ‘Response-ability’ as Aural Care in
+Contemporary Mexican Narrative.” Modern Language Association Conference,
+Toronto, January 2026
 * “Migrant Sonority and More-than-Human Perspectivism in Emiliano Monge’s Las
 tierras arrasadas.” University of Utah, Department of World Languages & Cultures
 Lecture Series, September 2025
