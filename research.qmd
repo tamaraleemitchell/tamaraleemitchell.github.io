@@ -3,8 +3,7 @@ title: "Research"
 ---
 
 
-I specialize in 20th- and 21st-century Mexican and Central American narrative
-fiction, as well as in broad comparative areas that reach into other disciplines
+I specialize in 20th- and 21st-century Mexican and Central American literature, as well as in broad comparative areas that reach into other disciplines
 and traditions: sound studies, critical theory, political philosophy, and border
 and diaspora studies. My research is animated by questions of political agency,
 economic precarity, and the effects of extractivist practices, as well as by the
@@ -12,7 +11,7 @@ ways in which literature shapes, critiques, and indexes neoliberal globalization
 and its offshoots, especially the Capitalocene.
 
 My first book, _Novel Distortions: Postnationalism and Literary Form in Mexico
-and Central America_ (under contract with the University of Pittsburgh Press,
+and Central America_ (forthcoming with the University of Pittsburgh Press,
 Illuminations: Cultural Formations of the Americas Series), considers literary responses to the shifting grounds of
 national modernity in Latin America. The novel emerged in lockstep with the
 nation state, serving as the cultural counterpart to the state's political form
@@ -38,13 +37,14 @@ narrative fiction illuminates our comprehension of politics and envisions new
 forms of community and relationality from the postnational present.
 
 I am working on a second book project, tentatively titled _Sounds of the
-Capitalocene: Extraction and Aurality in Mexican Literature_, that considers how
-20th- and 21st-century authors mobilize sound and listening in distinct literary
-texts as a means of responding to exclusionary politics, economic inequalities,
-gendered violence, and ecological devastation of advanced capitalism. In it, I
+Capitalocene: Extraction and Aurality in Mexican Literature and Culture_, that
+considers how sound and listening are mobilized in distinct 20th- and
+21st-century cultural texts as a means of responding to exclusionary politics,
+economic inequalities, gendered violence, and ecological devastation of advanced
+capitalism. In it, I
 read authors such as Amaranta Caballero Prado, Dahlia de la Cerda, Jorge Comensal, Inti García Santamaría, Yuri Herrera,
 Xavier Icaza, Emiliano Monge, Mariana Oliver, Guadalupe Nettel, and Cristina Rivera
-Garza, whose works position listening as a form of care in the extractivist
+Garza, whose works position listening as a form of care and contestation in the extractivist
 present and whose texts turn to sound, silence, and hearing to imagine
 alternatives to the social and environmental devastation of developmentalist and
 capitalist logic.
@@ -60,15 +60,19 @@ capitalist logic.
 :::
 
 ### Books
-* _Novel Distortions: Postnationalism and Literary Form in Mexico and Central
+* _[Novel Distortions](https://upittpress.org/books/9780822949084/): Postnationalism and Literary Form in Mexico and Central
 America_. University of Pittsburgh Press, _Illuminations: Cultural Formations of the
 Americas_ series, September 2026.
 
 ### Journal articles
 
-* “Señorita Bovary: Speculative Realism and the Novel in El Salvador.” _Comparative Literature_ (accepted August 2025).
+* “Señorita Bovary: Speculative Realism and the Novel in El Salvador.”
+_Comparative Literature_ (accepted August 2025, forthcoming Spring 2027).
 
-* "Scholarship as Receptive Listening: New Directions in Latin American Sound Studies." _Journal of Latin American Cultural Studies_, vol. 34, no. 1, March 2026. 
+*
+"[Introduction](https://www.tandfonline.com/doi/full/10.1080/13569325.2026.2639537):
+Scholarship as Receptive Listening in Latin American Sound Studies." _Journal of
+Latin American Cultural Studies_, vol. 34, no. 1, March 2026. 
 
 * “[Sounding Out the Text](/assets/research/PDFs/Mitchell-Smith_Sounding-Out-the-Text_2023.pdf):
 Approaches to Latin American Literary Aurality,” with Prof. Amanda M. Smith (UC
@@ -97,17 +101,19 @@ Santa Cruz). _Revista de Estudios Hispánicos_ (October 2023).
 
 * “From Plaintive to Plaintiff: Accessing Rights in Neoliberal Globalization,”
 _Weeping Women: La Llorona in Modern Latina and Chicana Lore_, eds. Norma Elia
-Cantú and Kathleen Alcalá, University of Texas Press (forthcoming August 2026).
+Cantú and Kathleen Alcalá, University of Texas Press (forthcoming Fall 2026).
 
-* “Forced Displacement and Aurality in Mexico: Intertextual Echoes and More-than-Human Sound in Suzette Celaya Aguilar’s _Nosotras_,” _Contemporary Migrations in Latin American Literature_, edited by Cecily Raynor and Lara Bourdin. Co-authored with [Ester Aguirre Alfaro](https://fhis.ubc.ca/profile/tesi-aguirre/). Proposal accepted, August 2024.
+* “Forced Displacement and Aurality in Mexico: Intertextual Echoes and More-than-Human Sound in Suzette Celaya Aguilar’s _Nosotras_,” _Contemporary Migrations in Latin American Literature_, edited by Cecily Raynor and Lara Bourdin. Co-authored with [Ester Aguirre Alfaro](https://fhis.ubc.ca/profile/tesi-aguirre/). Submitted August 2025; accepted Dec 2025; revised and resubmitted Feb 2026
 
 
 ## Review Essays & Book Reviews
-*Thematic Review, "Ephemeral Aurality: Sonic Media and Performance in Mexico." _Journal of Latin American Cultural Studies_, vol. 34, no. 1, March 2026.  
+* Thematic Review, "[Ephemeral Aurality](https://www.tandfonline.com/doi/full/10.1080/13569325.2026.2636913):
+Sonic Media and Performance in Mexico." _Journal of Latin American Cultural
+Studies_, vol. 34, no. 1, March 2026, pp. 201-216.  
 Books reviewed: Christina Baker's _Sonic Strategies: Performing Mexico’s War on Drugs, Mourning, and Feminicide_ (Vanderbilt UP 2023)), Alejandro L. Madrid's
 _The Archive and the Aural City: Sound, Knowledge, and the Politics of Listening_ (Duke UP 2025), and Sonia Roble's _Mexican Waves: Radio Broadcasting along Mexico’s Northern Border, 1930–1950_ (Arizona UP 2023).
 
-* Commissioned Thematic Review, [“Listening in/to Literature.”](/assets/research/PDFs/Mitchell_Listening-into-literature_LARR_2022.pdf) _Latin American Research Review_, October 2022.  
+* Commissioned Thematic Review, [“Listening in/to Literature.”](/assets/research/PDFs/Mitchell_Listening-into-literature_LARR_2022.pdf) _Latin American Research Review_, vol. 85, no. 1, October 2022, pp. 215-25.  
 Books reviewed: Jason Borge's _Tropical Riffs_ (Duke UP, 2018), Ren Ellis Neyra's _The Cry of the Senses_ (Duke UP, 2020), Sarah Finley's _Hearing Voices_ (U Nebraska P, 2019), Marília Librandi's _Writing by Ear_ (U Toronto P, 2018), Francine Masiello's _The Senses of Democracy_ (U Texas P, 2018), and Luz María Sánchez Cardona's _Sonar_ (UAM Juan Pablo Editores, 2018). 
 
 * [Review](/assets/research/PDFs/Review-2021_Esch-Modernity-at-Gunpoint_Mitchell.pdf) of _Modernity
